@@ -60,49 +60,49 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 130px;
     text-align: center;
-    background: #fff;
+    background: #EEFFCA;
 }
 
 .architecture-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     text-align: center;
-    background: #eee;
+    background: #EEFFCA;
 }
 
 .apartments-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     text-align: center;
-    background: #fff;
+    background: #EEFFCA;
 }
 
 .location-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     text-align: center;
-    background: #eee;
+    background: #EEFFCA;
 }
 
 .lifestyle-section{
     height: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     text-align: center;
-    background: #fff;
+    background: #EEFFCA;
 }
 
 .team-section{
     height: 100%;
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;
-    background: #eee;
+    background: #EEFFCA;
 }
 
 .contact-section{
     height: 100%;
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;
-    background: #fff;
+    background: #EEFFCA;
 }
