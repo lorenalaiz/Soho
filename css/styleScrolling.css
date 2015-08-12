@@ -43,10 +43,10 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        padding: 1px 0;
+        -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        transition: background .3s ease-in-out,padding .3s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -59,20 +59,15 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .architecture-section {
-    height: 100%;
+    height: 700px;
     padding-top: 130px;
     text-align: center;
     background: #EAF3E2; /*Verde claro*/
 }
 .apartments-section {
-    height: 100%;
+    height: 1820px;
     padding-top: 20px;
     text-align: center;
-    background: #FFFFFF; /*Branco*/
-}
-.inside-section{
-    height: 100%;
-    padding-top: 20px;
     background: #FFFFFF; /*Branco*/
 }
 
@@ -104,39 +99,3 @@ of those sections to manage the look and feel of the site. */
     background: #FFFFFF; /*Branco*/
 }
 
-#imagem1{
-    float: left;
-    width: 480px;
-}
-
-#texto-imagem1{
-    float: right;
-    width: 480px;
-}
-#imagem2{
-    float: right;
-    width: 480px;
-}
-
-#texto-imagem2{
-    float: left;
-    width: 480px;
-}
-#imagem3{
-    float: left;
-    width: 480px;
-}
-
-#texto-imagem3{
-    float: right;
-    width: 480px;
-}
-#imagem4{
-    float: right;
-    width: 480px;
-}
-
-#texto-imagem4{
-    float: left;
-    width: 480px;
-}
