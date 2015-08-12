@@ -1,0 +1,20 @@
+﻿Verde claro EAF3E2
+234
+243
+226
+
+verde escuro 7F946D
+127
+148
+109
+
+
+verde menos escuro BBD49B
+187
+212
+155
+
+verde dos nomes das sessões
+103
+124
+75

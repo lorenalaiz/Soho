@@ -19,7 +19,7 @@ html {
 
 /* Carousel base class */
 .carousel {
-  height: 350px;
+  height: 500px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -29,7 +29,7 @@ html {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 350px;
+  height: 500px;
  /* background-color: #777;*/
 }
 .carousel-inner > .item > img {
@@ -37,7 +37,7 @@ html {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 350px;
+  height: 500px;
 }
 
 
@@ -58,51 +58,85 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
-    height: 100%;
-    padding-top: 130px;
-    text-align: center;
-    background: #EEFFCA;
-}
-
 .architecture-section {
     height: 100%;
     padding-top: 130px;
     text-align: center;
-    background: #EEFFCA;
+    background: #EAF3E2; /*Verde claro*/
 }
-
 .apartments-section {
     height: 100%;
-    padding-top: 130px;
+    padding-top: 20px;
     text-align: center;
-    background: #EEFFCA;
+    background: #FFFFFF; /*Branco*/
+}
+.inside-section{
+    height: 100%;
+    padding-top: 20px;
+    background: #FFFFFF; /*Branco*/
 }
 
 .location-section {
     height: 100%;
-    padding-top: 130px;
+    padding-top: 20px;
     text-align: center;
-    background: #EEFFCA;
+    background: #EAF3E2; /*Verde claro*/
 }
 
 .lifestyle-section{
     height: 100%;
-    padding-top: 130px;
+    padding-top: 20px;
     text-align: center;
-    background: #EEFFCA;
+    background: #FFFFFF; /*Branco*/
 }
 
 .team-section{
     height: 100%;
-    padding-top: 120px;
+    padding-top: 20px;
     text-align: center;
-    background: #EEFFCA;
+    background: #EAF3E2; /*Verde claro*/
 }
 
 .contact-section{
     height: 100%;
-    padding-top: 120px;
+    padding-top: 20px;
     text-align: center;
-    background: #EEFFCA;
+    background: #FFFFFF; /*Branco*/
+}
+
+#imagem1{
+    float: left;
+    width: 480px;
+}
+
+#texto-imagem1{
+    float: right;
+    width: 480px;
+}
+#imagem2{
+    float: right;
+    width: 480px;
+}
+
+#texto-imagem2{
+    float: left;
+    width: 480px;
+}
+#imagem3{
+    float: left;
+    width: 480px;
+}
+
+#texto-imagem3{
+    float: right;
+    width: 480px;
+}
+#imagem4{
+    float: right;
+    width: 480px;
+}
+
+#texto-imagem4{
+    float: left;
+    width: 480px;
 }
