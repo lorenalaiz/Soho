@@ -75,7 +75,7 @@ of those sections to manage the look and feel of the site. */
     height: 1430px;
     padding-top: 100px;
     text-align: center;
-    background: #EAF3E2; /*Verde claro*/
+    background: #FFFFFF; /*Verde claro*/
 }
 .apartments-section {
     height: 2600px;
@@ -88,7 +88,7 @@ of those sections to manage the look and feel of the site. */
     height: 1350px;
     padding-top: 100px;
     text-align: center;
-    background: #EAF3E2; /*Verde claro*/
+    background: #FFFFFF; /*Verde claro*/
 }
 
 .lifestyle-section{
@@ -102,7 +102,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    background: #EAF3E2; /*Verde claro*/
+    background: #FFFFFF; /*Verde claro*/
 }
 
 .contact-section{
