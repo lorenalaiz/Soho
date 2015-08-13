@@ -9,6 +9,12 @@ body {
     height: 100%;
 }
 
+background: {
+    background-image: pictures/background.jpg;
+}
+
+Read more: http://www.linhadecodigo.com.br/artigo/3597/codigo-para-background-html-e-css.aspx#ixzz3ihbDu4q4
+
 html {
     width: 100%;
     height: 100%;
