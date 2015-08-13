@@ -9,10 +9,6 @@ body {
     height: 100%;
 }
 
-background: {
-    background-image: pictures/background.jpg;
-}
-
 Read more: http://www.linhadecodigo.com.br/artigo/3597/codigo-para-background-html-e-css.aspx#ixzz3ihbDu4q4
 
 html {
@@ -70,42 +66,42 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .architecture-section {
-    height: 1000px;
-    padding-top: 130px;
+    height: 1430px;
+    padding-top: 100px;
     text-align: center;
     background: #EAF3E2; /*Verde claro*/
 }
 .apartments-section {
     height: 2600px;
-    padding-top: 20px;
+    padding-top: 100px;
     text-align: center;
     background: #FFFFFF; /*Branco*/
 }
 
 .location-section {
-    height: 100%;
-    padding-top: 20px;
+    height: 1350px;
+    padding-top: 100px;
     text-align: center;
     background: #EAF3E2; /*Verde claro*/
 }
 
 .lifestyle-section{
     height: 100%;
-    padding-top: 20px;
+    padding-top: 100px;
     text-align: center;
     background: #FFFFFF; /*Branco*/
 }
 
 .team-section{
     height: 100%;
-    padding-top: 20px;
+    padding-top: 100px;
     text-align: center;
     background: #EAF3E2; /*Verde claro*/
 }
 
 .contact-section{
     height: 100%;
-    padding-top: 20px;
+    padding-top: 100px;
     text-align: center;
     background: #FFFFFF; /*Branco*/
 }
