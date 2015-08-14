@@ -16,6 +16,19 @@
 
     <!-- Custom CSS -->
     <link href="css\styleScrolling.css" rel="stylesheet">
+	
+	<!-- Galeria de imagens das plantas -->
+	<script src="js/jquery-1.7.2.min.js"></script>
+       <script src="js/lightbox.js"></script>
+
+       <link href="css/lightbox.css" rel="stylesheet" />
+
+       <script type="text/javascript">
+           $(function () {
+               $('#gallery a').lightBox();
+           });
+        </script>
+	<!-- Fim da Galeria de imagens das plantas -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -83,12 +96,39 @@
                         <img src="pictures\CGI - Exterior.jpg" width="95%" alt="Exterior">
                      </div>
                      <div class="table-img">
-                        <table>
+                     
+		<!-- plantas antigo
+					 <table>
                          <tr>
                               <td><img src="pictures\plan 1.png" width="95%" alt="Plan1">
                               <td><img src="pictures\plan 2.png" width="90%" alt="Plan2">
                          </tr>
                      </table>
+			
+		Fim plantas antigas --> 
+
+			<!-- Galeria de imagens das plantas -->
+						 <div id="photo" <a href="http://www.jqueryscript.net/gallery/"></a>
+						  <img class="photoGallery" 
+							   data-src="C:\Users\joana.costa\Desktop\Joana\pictures\plan 1.png" 
+							   src="C:\Users\joana.costa\Desktop\Joana\pictures\plan 1.png" 
+							   data-id="pic_1" 
+							   data-desc="Description 1">
+
+						  <img class="photoGallery" 
+							   data-src="C:\Users\joana.costa\Desktop\Joana\pictures\plan 2.png" 
+							   src="C:\Users\joana.costa\Desktop\Joana\pictures\plan 2.png" 
+							   data-id="pic_2" 
+							   data-desc="Description 2">
+
+						  <img class="photoGallery" 
+							   data-src="C:\Users\joana.costa\Desktop\Joana\pictures\plan 1.png" 
+							   src="C:\Users\joana.costa\Desktop\Joana\pictures\plan 1.png" 
+							   data-id="pic_3" 
+							   data-desc="Description 3">
+						</div>
+
+			<!-- Fim Galeria de imagens das plantas -->
                      </div>
                     </div>
                 </div>
@@ -333,9 +373,12 @@
                     <form name="Contact-Us">
                         <input type=hidden name="destino" value="">
                         <input type=hidden name="enviado" value="">
-                        <p><b>Name: </b><input type=text name="nome" size="65"></p><br>
-                        <p><b>Email: </b><input type=text name="assunto" size="65"></p><br>
-                        <p><b>Message: </b><textarea name="Mensagem" rows="10" cols="60" wrap="virtual"></textarea></p><br>
+                        <p><b>Name: </b></p>
+						<p><input type=text name="nome" size="65"></p><br>
+                        <p><b>Email: </b></p>
+						<p><input type=text name="assunto" size="65"></p><br>
+                        <p><b>Message: </b></p>
+						<p><textarea name="Mensagem" rows="10" cols="62" wrap="virtual"></textarea></p><br>
                         <p><input type="submit" value="Send Email"> <input type="reset" value="Clear Form"></p>
                     </form>
                 </div>
@@ -361,6 +404,16 @@
     <script src="JS\bootstrap.min.js"></script>
    
 	 <!-- Fim Bootstrap core JavaScript para carousel-->
+	 
+	 <!-- Galeria de plantas--> 
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="JS/photoGallery.js"></script>
+	
+	<script type="text/javascript">
+		var photoGallery = new PhotoGallery();
+	</script>
+	
+	 <!-- Fim Galeria de plantas-->
 </body>
 
 </html>
