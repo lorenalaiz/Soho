@@ -14,7 +14,27 @@ verde menos escuro BBD49B
 212
 155
 
-verde dos nomes das sessões
+verde dos nomes das sessões 677C4B
 103
 124
 75
+
+Cinza claro #F8F8F8
+     248
+248
+248
+
+
+Cinza escuro #95918D    
+149
+145
+141
+
+
+Cinza menos claro #EBEBEA
+   235
+235
+234
+
+
+
