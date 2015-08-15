@@ -73,7 +73,7 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .architecture-section {
-    height: 1430px;
+    height: 1500px;
     padding-top: 95px;
     text-align: center;
     background: #FFFFFF;
