@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Soho</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css\styleScrolling.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="pictures\Logo.png" width="20%"  align="left" alt="Logo"></a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html"><b>ARCHITECTURE</b></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="Terraces.html"><b>TERRACES</b></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="Location.html"><b>LOCATION</b></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="Lifestyle.html"><b>LIFESTYLE</b></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="Schedule.html"><b>FINISH SCHEDULE</b></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="Contact.html"><b>CONTACT US</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--<h1>Contact Us</h1>-->
+                    <br>
+                    <img src="pictures\soho.jpg" width="10%"  alt="Soho">
+                    <h2>9281 1588</h2>
+                    <form name="Contact-Us">
+                        <input type=hidden name="destino" value="">
+                        <input type=hidden name="enviado" value="">
+                        <div class="font-form">
+                						<p><b>Name: </b></p>
+                				</div>
+                				<p><input type=text name="nome" size="65"></p><br>
+                        <div class="font-form">
+                				    <p><b>Email: </b></p>
+                				</div>
+                				<p><input type=text name="assunto" size="65"></p><br>
+                        <div class="font-form">
+                						<p><b>Message: </b></p>
+                				</div>
+                				<p><textarea name="Mensagem" rows="10" cols="62" wrap="virtual"></textarea></p><br>
+                        <p><input type="submit" value="Send Email"> <input type="reset" value="Clear Form"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- JavaScript e Jquery para ancora --!>
+    <!-- jQuery -->
+    <script src="JS\jquery"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="JS\bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="JS\jquery.easing.min.js"></script>
+    <script src="JS\scrolling-nav.js"></script>
+ <!-- Fim JavaScript e Jquery para ancora --!>
+ 
+ <!-- Bootstrap core JavaScript para carousel-->
+
+    <script src="JS\jqueryCarousel.min.js"></script>
+    <script src="JS\bootstrap.min.js"></script>
+   
+	 <!-- Fim Bootstrap core JavaScript para carousel-->
+	 
+	 <!-- Galeria de plantas--> 
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="JS/photoGallery.js"></script>
+	
+	<script type="text/javascript">
+		var photoGallery = new PhotoGallery();
+	</script>
+
+  <!-- Maps API Javascript -->
+        <script src="http://maps.googleapis.com/maps/api/js?AIzaSyBzHeoP089M0b6OLl8Z8J5MerAl9vrV0vA;sensor=false"></script>
+        <script src="JS/jquery.min.js"></script>
+        <!-- Arquivo de inicialização do mapa -->
+        <script src="JS/map.js"></script>
+	
+	 <!-- Fim Galeria de plantas-->
+</body>
+
+</html>
