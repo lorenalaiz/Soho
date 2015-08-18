@@ -22,7 +22,7 @@ h3{
 }
 
 h2{
-	text-align: center;
+	text-align: left;
     padding:20px 50px 100px 20px;
 	
 }
@@ -73,42 +73,35 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .architecture-section {
-    height: 1500px;
-    padding-top: 95px;
+    height: 650px;
+    padding-top: 120px;
     text-align: center;
     background: #FFFFFF;
 }
 .terraces-section {
     height: 2600px;
-    padding-top: 100px;
+    padding-top: 55px;
     text-align: center;
     background: #FFFFFF;
 }
 
 .location-section {
     height: 1350px;
-    padding-top: 100px;
-    text-align: center;
-    background: #FFFFFF;
-}
-
-.lifestyle-section{
-    height: 100%;
-    padding-top: 100px;
+    padding-top: 45px;
     text-align: center;
     background: #FFFFFF;
 }
 
 .schedule-section{
     height: 100%;
-    padding-top: 100px;
+    padding-top: 55px;
     text-align: center;
     background: #FFFFFF;
 }
 
 .contact-section{
     height: 100%;
-    padding-top: 100px;
+    padding-top: 55px;
     text-align: center;
     background: #FFFFFF;
 }
