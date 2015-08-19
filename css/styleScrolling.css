@@ -13,7 +13,6 @@ html {
     height: 100%;
 }
 
-
 h3{
     text-align: justify;
     margin:20px 50px 50px 0;
@@ -27,22 +26,14 @@ h2{
 
 /* Configuração do corpo do texto */
 .text-left{
-    width: 400px;
+    /*posição na tela*/
+	width: 400px;
     height: 420px;
-    font-size: 15px;
-    font-family: "museo_sans300", "Helvetica";
-    line-height: 15px;
-    color: #605f5a;
+	margin-left: 70px;
+	margin-right:70px;
     float: left;
-}
-.text-rigth{
-    width: 400px;
-    height: 420px;
-    font-size: 22px;
-    font-family: "museo_sans300", "Helvetica";
-    line-height: 15px;
-    color: #605f5a;
-    float: right;
+	font-size: 16px;
+	text-align: justify;
 }
 
 .text-center{
@@ -70,6 +61,14 @@ h5{
   font-size: 25px;
   text-align: center;
 
+}
+h5:after{
+  content: '';
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #EBEBEA;
+  margin: 0 auto;
 }
 
 /* CUSTOMIZE THE CAROUSEL
