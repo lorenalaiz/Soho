@@ -25,6 +25,52 @@ h2{
 	
 }
 
+/* Configuração do corpo do texto */
+.text-left{
+    width: 400px;
+    height: 420px;
+    font-size: 15px;
+    font-family: "museo_sans300", "Helvetica";
+    line-height: 15px;
+    color: #605f5a;
+    float: left;
+}
+.text-rigth{
+    width: 400px;
+    height: 420px;
+    font-size: 22px;
+    font-family: "museo_sans300", "Helvetica";
+    line-height: 15px;
+    color: #605f5a;
+    float: right;
+}
+
+.text-center{
+    font-size: 62.5%;
+    font-family: "museo_sans300", "Helvetica";
+    line-height: 15px;
+    color: #605f5a;
+}
+
+h4 {
+  color: #605f5a;
+  font-size: 2em;
+  text-align: center;
+}
+
+h4:after, h4:before {
+  content: '';
+  display: block;
+  width: 940px;
+  height: 4px;
+  background: #EBEBEA;
+  margin: 0 auto;
+}
+h5{
+  font-size: 25px;
+  text-align: center;
+
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -34,7 +80,8 @@ h2{
   height: 530px;
   width: 900px;
   text-align: center;
-  vertical-align: center;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -46,15 +93,13 @@ h2{
 .carousel .item {
   height: 530px;
   width: 900px;
-
- /* background-color: #777;*/
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
-  left: 0;
   min-width: 900px;
   height: 530px;
+
 }
 
 
@@ -176,4 +221,26 @@ input[type=reset]{
 	height: 50px;
 }
 
+.class-form-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "museo_sans300", "Helvetica";
+}
+.class-form-right{
+    float: right;
+    width: 50%;
+    text-align: left;
+    font-size: 15px;
+    font-family: "museo_sans300", "Helvetica";
+}
 
+#map{
+    height: 490px;
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 16px;
+}
