@@ -27,20 +27,24 @@ h2{
 /* Configuração do corpo do texto */
 .text-left{
     /*posição na tela*/
-	width: 400px;
-    height: 420px;
-	margin-left: 70px;
-	margin-right:70px;
+	width: 33%;
+    height: 400px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
     float: left;
-	font-size: 16px;
-	text-align: justify;
+	font-size: 14px;
+	line-height: 1.6;
 }
 
 .text-center{
-    font-size: 62.5%;
+    text-align: center;
+	font-size:18px;
     font-family: "museo_sans300", "Helvetica";
-    line-height: 15px;
-    color: #605f5a;
+    line-height: 1.6;
+	padding-left: 25px;
+    padding-right: 25px;
 }
 
 h4 {
@@ -58,14 +62,14 @@ h4:after, h4:before {
   margin: 0 auto;
 }
 h5{
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
 
 }
 h5:after{
   content: '';
   display: block;
-  width: 120px;
+  width: 220px;
   height: 2px;
   background: #EBEBEA;
   margin: 0 auto;
@@ -151,27 +155,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 55px;
     text-align: center;
     background: #FFFFFF;
-}
-
-.text-right{
-    width: 400px;
-    text-align: center;
-    float: right;
-    padding-top: 80px;
-    line-height: 1.5em;
-}
-
-.text-left{
-    width: 400px;
-    text-align: center;
-    float: left;
-    padding-top: 80px;
-    line-height: 1.5em;
-}
-
-
-.table-img{
-    padding-top: 30px;
 }
 
 /*formulário*/
