@@ -1,0 +1,20 @@
+[
+    {
+        "Id": 1,
+        "Latitude": -34.0439084,
+        "Longitude": 151.1291238,
+        "Descricao": "Conteúdo do InfoBox 1"
+    },
+    {
+        "Id": 2,
+        "Latitude": -34.035057,
+        "Longitude": 151.100356,
+         "Descricao": "Conteúdo do InfoBox 1"
+    },
+    {
+        "Id": 3,
+        "Latitude": -34.0504425,
+        "Longitude": 151.1644733,
+         "Descricao": "Conteúdo do InfoBox 1"
+    }
+]
