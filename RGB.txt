@@ -3,10 +3,12 @@
 243
 226
 
+
 verde escuro 7F946D
 127
 148
 109
+
 
 
 verde menos escuro BBD49B
@@ -14,10 +16,12 @@ verde menos escuro BBD49B
 212
 155
 
+
 verde dos nomes das sessões 677C4B
 103
 124
 75
+
 
 Cinza claro #F8F8F8
      248
@@ -25,10 +29,12 @@ Cinza claro #F8F8F8
 248
 
 
+
 Cinza escuro #95918D    
 149
 145
 141
+
 
 
 Cinza menos claro #EBEBEA
@@ -38,3 +44,5 @@ Cinza menos claro #EBEBEA
 
 
 
+
+vermelho #FF0000

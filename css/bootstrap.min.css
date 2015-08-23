@@ -1,8 +1,4 @@
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*! * Bootstrap v3.3.5 (http://getbootstrap.com) * Copyright 2011-2015 Twitter,Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
 	font-family:sans-serif;
 	-webkit-text-size-adjust:100%;
@@ -1030,7 +1026,7 @@ body {
 	font-size:14px;
 	line-height:1.42857143;
 	color:#333;
-	background-color:#fff
+	background-color:#95918D;
 }
 button,input,select,textarea {
 	font-family:inherit;
@@ -1134,7 +1130,7 @@ hr {
 }
 .h1,h1 {
 	font-size:36px;
-	color:#95918D;
+	color:#333;
 	background-color:#EBEBEA;
 }
 .h2,h2 {
@@ -3844,7 +3840,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	}
 }
 .navbar-default {
-	background-color:#95918D;
+	background-color:#333;
 	border-color:#F8F8F8
 }
 .navbar-default .navbar-brand {
@@ -3858,7 +3854,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	color:#777
 }
 .navbar-default .navbar-nav>li>a {
-	color:#000000
+	color:#F8F8F8
 }
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
 	color:#333;
