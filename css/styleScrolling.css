@@ -60,15 +60,24 @@ h2{
 
 .text-center{
     text-align: center;
-	font-size:18px;
+	  font-size:20px;
     font-family: "museo_sans300", "Helvetica";
     line-height: 1.6;
-	padding-left: 25px;
-    padding-right: 25px;
+	  padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-justify{
+    text-align: justify;
+    font-size:18px;
+    font-family: "museo_sans300", "Helvetica";
+    line-height: 1.6;
+    padding-left: 100;
+    padding-right: 50px;
 }
 
 h4 {
-  color: #605f5a;
+  color: #333;
   font-size: 2em;
   text-align: center;
 }
@@ -144,47 +153,47 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .architecture-section {
-	width:1100px;
+	width:1140px;
 	margin-left:76px;
-    height: 1124px;
-    padding-top: 120px;
+    height: 1070px;
+    padding-top: 50px;
     text-align: center;
-    background: #FFFFFF;
+    background: #F8F8F8;
 }
 .terraces-section {
-	width:1100px;
+	width:1140px;
 	margin-left:76px;
     height: 620px;
     padding-top: 35px;
     text-align: center;
-    background: #FFFFFF;
+    background: #F8F8F8;
 }
 
 .location-section {
-	width:1100px;
+	width:1140px;
 	margin-left:76px;
     height: 650px;
     padding-top: 35px;
     text-align: center;
-    background: #FFFFFF;
+    background: #F8F8F8;
 }
 
 .schedule-section{
-	width:1100px;
+	width:1140px;
 	margin-left:76px;
     height: 1350px;
     padding-top: 55px;
     text-align: center;
-    background: #FFFFFF;
+    background: #F8F8F8;
 }
 
 .contact-section{
-	width:1100px;
+	width:1140px;
 	margin-left:76px;
     height: 675px;
     padding-top: 55px;
     text-align: center;
-    background: #FFFFFF;
+    background: #F8F8F8;
 }
 
 /*formulário*/
