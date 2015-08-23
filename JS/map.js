@@ -33,59 +33,35 @@ function carregarPontos() {
     
 	var locations = [
 		[
-			"Highfield Terraces",
-			-34.044728,
-			151.130118,
+			"Teste 1",
+			-34.0439084,
+			151.1291238,
 			1,
-            "pictures/icon-logo.png",
 			"Teste Name 1",
 			"",
 			"Teste Desc 1",
 			"Teste Desc 1.1"
 		],
 		[
-			"Westfield Miranda",
+			"Teste 2",
 			-34.035057,
 			151.100356,
 			2,
-            "pictures/icon-mall.png",
-			"4.4Km from Highfield Terraces",
+			"Teste Name 2",
+			"Teste Name 2.1",
 			"Teste Desc 2",
 			"Teste Desc 2.1"
 		],
 		[
-			"Cronulla Beach",
-			-34.051874,
-			151.155778,
+			"Teste 3",
+			-34.0504425,
+			151.1644733,
 			3,
-            "pictures/icon-beach.png",
-            "3.4Km from Highfield Terraces",
+			"Teste Name 3",
 			"Teste Name 3.1",
 			"Teste Desc 3",
 			"Teste Desc 3.1"
-		],
-        [
-            "Caringbah Village",
-            -34.042809,
-            151.118742,
-            4,
-            "pictures/icon-mall.png",
-            "2.4Km from Highfield Terraces",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
-        ],
-        [
-            "Sutherland Hospital",
-            -34.037300,
-            151.114017,
-            4,
-            "pictures/icon-hospital.png",
-            "2.2Km from Highfield Terraces",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
-        ],
+		]
 	]
     
 	var infowindow = new google.maps.InfoWindow();
@@ -95,13 +71,12 @@ function carregarPontos() {
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map,
-        icon: locations[i][4]
+        map: map
       });
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent(locations[i][0], locations[i][8]);
+          infowindow.setContent(locations[i][0], locations[i][6]);
           infowindow.open(map, marker);
         }
       })(marker, i));
