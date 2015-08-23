@@ -3575,7 +3575,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		overflow-y:visible
 	}
 	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbg-ar-collapse,.navbar-static-top .navbar-collapse {
-		paddinright:0;
+		padding-right:0;
 		padding-left:0
 	}
 }
