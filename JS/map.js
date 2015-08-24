@@ -163,21 +163,7 @@ function abrirInfoBox(id, marker) {
     idInfoBoxAberto = id;
 }
  
-function carregarPontos() {
-    ...
- 
-    var myOptions = {
-        content: "<p>Conteúdo do InfoBox</p>",
-        pixelOffset: new google.maps.Size(-150, 0)
-    };
- 
-    infoBox[ponto.Id] = new InfoBox(myOptions);
-    infoBox[ponto.Id].marker = marker;
- 
-    infoBox[ponto.Id].listener = google.maps.event.addListener(marker, 'click', function (e) {
-        abrirInfoBox(ponto.Id, marker);
-    });
-}
+
 	
     /*$.getJSON('pontos.json', function(pontos) {
         
