@@ -37,11 +37,13 @@ h2{
 
 .text-schedule{
   width: 90%;
-  padding-left:100px;
+  height:1200px;
+  padding-left:150px;
 }
+
 .dl-horizontal dt {
   float: left;
-  width: 200px;
+  width: 170px;
   overflow: hidden;
   clear: left;
   text-align: left;
@@ -60,8 +62,7 @@ h2{
     /*Formatação da div*/
     width: 860px;
     padding-left: 20%;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 20px;
     /*Formatação do Texto*/
     text-align: center;
 	  font-size: 18px;
@@ -103,6 +104,7 @@ h4:after, h4:before {
 h5{
   font-size: 23px;
   text-align: left;
+  padding-top:40px;
 
 }
 h5:after{
