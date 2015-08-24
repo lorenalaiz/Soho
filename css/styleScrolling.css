@@ -108,7 +108,7 @@ h5{
 h5:after{
   content: '';
   display: block;
-  width: 600px;
+  width: 200px;
   height: 2px;
   background: #EBEBEA;
   margin: 0 auto;
@@ -122,7 +122,7 @@ h6{
 h6:after{
   content: '';
   display: block;
-  width: 600px;
+  width: 200px;
   height: 2px;
   background: #EBEBEA;
   margin: 0 auto;
@@ -180,44 +180,44 @@ of those sections to manage the look and feel of the site. */
 	width:1140px;
 	margin-left:96px;
   height: 1170px;
-  padding-top: 100px;
+  padding-top: 30px;
   text-align: center;
-  background: #F8F8F8;
+  background: #FFFFFF;
 }
 .terraces-section {
 	width:1140px;
 	margin-left:96px;
-    height: 620px;
-    padding-top: 35px;
+    height: 1000px;
+    padding-top: 25px;
     text-align: center;
-    background: #F8F8F8;
+    background: #FFFFFF;
 }
 
 .location-section {
 	width:1140px;
 	margin-left:96px;
     height: 650px;
-    padding-top: 35px;
+    padding-top: 30px;
     text-align: center;
-    background: #F8F8F8;
+    background: #FFFFFF;
 }
 
 .schedule-section{
 	width:1140px;
 	margin-left:96px;
     height: 1550px;
-    padding-top: 55px;
+    padding-top: 10px;
     text-align: center;
-    background: #F8F8F8;
+    background: #FFFFFF;
 }
 
 .contact-section{
 	width:1140px;
 	margin-left:96px;
     height: 675px;
-    padding-top: 55px;
+    padding-top: 30px;
     text-align: center;
-    background: #F8F8F8;
+    background: #FFFFFF;
 }
 
 /*formulário*/
