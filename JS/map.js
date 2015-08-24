@@ -49,7 +49,7 @@ function carregarPontos() {
 			151.100356,
 			2,
             "pictures/icon-mall.png",
-			"4.4Km from Highfield Terraces",
+			"Distance from Highfield Terraces: 4.4Km ",
 			"Teste Desc 2",
 			"Teste Desc 2.1"
 		],
@@ -59,7 +59,7 @@ function carregarPontos() {
 			151.155778,
 			3,
             "pictures/icon-beach.png",
-            "3.4Km from Highfield Terraces",
+            "Distance from Highfield Terraces: 3.4Km ",
 			"Teste Name 3.1",
 			"Teste Desc 3",
 			"Teste Desc 3.1"
@@ -70,7 +70,7 @@ function carregarPontos() {
             151.118742,
             4,
             "pictures/icon-mall.png",
-            "2.4Km from Highfield Terraces",
+            "Distance from Highfield Terraces: 2.4Km ",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"
@@ -81,7 +81,7 @@ function carregarPontos() {
             151.114017,
             4,
             "pictures/icon-hospital.png",
-            "2.2Km from Highfield Terraces",
+            "Distance from Highfield Terraces: 2.2Km ",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"
@@ -92,7 +92,7 @@ function carregarPontos() {
             151.132607,
             4,
             "pictures/icon-school.png",
-            "xxx from Highfield Terraces",
+            "Distance from Highfield Terraces: xxx ",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"
@@ -103,7 +103,7 @@ function carregarPontos() {
             151.144618,
             4,
             "pictures/icon-school.png",
-            "xxx from Highfield Terraces",
+            "Distance from Highfield Terraces: 2.1Km ",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"
@@ -114,7 +114,7 @@ function carregarPontos() {
             151.124440,
             4,
             "pictures/icon-school.png",
-            "xxx from Highfield Terraces",
+            "Distance from Highfield Terraces: 2Km ",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"
@@ -125,7 +125,7 @@ function carregarPontos() {
             151.112467,
             4,
             "pictures/icon-school.png",
-            "xxx from Highfield Terraces",
+            "Distance from Highfield Terraces: 3.5Km",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"

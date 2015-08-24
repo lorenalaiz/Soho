@@ -187,7 +187,7 @@ of those sections to manage the look and feel of the site. */
 .terraces-section {
 	width:1140px;
 	margin-left:96px;
-    height: 700px;
+    height: 660px;
     padding-top: 25px;
     text-align: center;
     background: #FFFFFF;
@@ -197,7 +197,7 @@ of those sections to manage the look and feel of the site. */
 	width:1140px;
 	margin-left:96px;
     height: 650px;
-    padding-top: 30px;
+    padding-top: 15px;
     text-align: center;
     background: #FFFFFF;
 }
@@ -205,7 +205,7 @@ of those sections to manage the look and feel of the site. */
 .schedule-section{
 	width:1140px;
 	margin-left:96px;
-    height: 1550px;
+    height: 1580px;
     padding-top: 10px;
     text-align: center;
     background: #FFFFFF;
