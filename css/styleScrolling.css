@@ -34,14 +34,14 @@ h2{
 }
 
 .text-schedule{
-  width: 90%;
+  width: 95%;
   height:1200px;
   padding-left:150px;
 }
 
 .dl-horizontal dt {
   float: left;
-  width: 170px;
+  width: 300px;
   overflow: hidden;
   clear: left;
   text-align: left;
@@ -58,12 +58,12 @@ h2{
 
 .text-center{
     /*Formatação da div*/
-    width: 860px;
+    width: 960px;
     padding-left: 20%;
-    padding-top: 20px;
+    padding-top: 10px;
     /*Formatação do Texto*/
-    text-align: center;
-	  font-size: 18px;
+    text-align: justify;
+	font-size: 20px;
     font-family: "museo_sans300", "Helvetica";
     line-height: 1.6;
 
@@ -115,7 +115,7 @@ h4:after, h4:before {
 h5{
   font-size: 23px;
   text-align: left;
-  padding-top:40px;
+  padding-top:30px;
 
 }
 h5:after{
@@ -331,3 +331,11 @@ input[type=reset]{
     width: 0; 
     left: 138px
    }
+   
+   #footer{    
+    background: #EBEBEA;
+    position:absolute;
+    bottom:0; 
+    width:100%;
+    margin-top: 10px;
+}
