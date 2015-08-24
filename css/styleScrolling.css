@@ -9,8 +9,6 @@ body{
     background-image: url(../pictures/background1.jpg);
     background-repeat: repeat;
     background-size: 40%;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .navbar {

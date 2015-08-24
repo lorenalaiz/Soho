@@ -65,7 +65,7 @@ function carregarPontos() {
 			"Teste Desc 3.1"
 		],
         [
-            "Caringbah Village",
+            "Caringbah Shopping Village",
             -34.042809,
             151.118742,
             4,
@@ -82,6 +82,50 @@ function carregarPontos() {
             4,
             "pictures/icon-hospital.png",
             "2.2Km from Highfield Terraces",
+            "Teste Name 3.1",
+            "Teste Desc 3",
+            "Teste Desc 3.1"
+        ],
+        [
+            "Burraneer Bay Public School",
+            -34.051575,
+            151.132607,
+            4,
+            "pictures/icon-school.png",
+            "xxx from Highfield Terraces",
+            "Teste Name 3.1",
+            "Teste Desc 3",
+            "Teste Desc 3.1"
+        ],
+        [
+            "Woolooware High School",
+            -34.039741,
+            151.144618,
+            4,
+            "pictures/icon-school.png",
+            "xxx from Highfield Terraces",
+            "Teste Name 3.1",
+            "Teste Desc 3",
+            "Teste Desc 3.1"
+        ],
+        [
+            "Caringbah North Public School",
+            -34.036453,
+            151.124440,
+            4,
+            "pictures/icon-school.png",
+            "xxx from Highfield Terraces",
+            "Teste Name 3.1",
+            "Teste Desc 3",
+            "Teste Desc 3.1"
+        ],
+        [
+            "Miranda North Primary School",
+            -34.031793,
+            151.112467,
+            4,
+            "pictures/icon-school.png",
+            "xxx from Highfield Terraces",
             "Teste Name 3.1",
             "Teste Desc 3",
             "Teste Desc 3.1"
@@ -107,6 +151,33 @@ function carregarPontos() {
       })(marker, i));
     }
 
+var idInfoBoxAberto;
+var infoBox = [];
+ 
+function abrirInfoBox(id, marker) {
+    if (typeof(idInfoBoxAberto) == 'number' && typeof(infoBox[idInfoBoxAberto]) == 'object') {
+        infoBox[idInfoBoxAberto].close();
+    }
+ 
+    infoBox[id].open(map, marker);
+    idInfoBoxAberto = id;
+}
+ 
+function carregarPontos() {
+    ...
+ 
+    var myOptions = {
+        content: "<p>Conteúdo do InfoBox</p>",
+        pixelOffset: new google.maps.Size(-150, 0)
+    };
+ 
+    infoBox[ponto.Id] = new InfoBox(myOptions);
+    infoBox[ponto.Id].marker = marker;
+ 
+    infoBox[ponto.Id].listener = google.maps.event.addListener(marker, 'click', function (e) {
+        abrirInfoBox(ponto.Id, marker);
+    });
+}
 	
     /*$.getJSON('pontos.json', function(pontos) {
         
