@@ -221,7 +221,7 @@ of those sections to manage the look and feel of the site. */
 	width:1140px;
 	margin-left:105px;
     height: 1580px;
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
 }
@@ -233,6 +233,14 @@ of those sections to manage the look and feel of the site. */
     padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
+}
+
+.footer-section{
+  width:1140px;
+  margin-left:105px;
+    height: 20px;
+    text-align: right;
+    background: #EBEBEA;
 }
 
 /*formulário*/
