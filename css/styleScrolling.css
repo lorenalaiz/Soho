@@ -58,12 +58,12 @@ h2{
 
 .text-center{
     /*Formatação da div*/
-    width: 960px;
+    width: 1000px;
     padding-left: 20%;
-    padding-top: 10px;
+    padding-top: 5px;
     /*Formatação do Texto*/
     text-align: justify;
-	font-size: 20px;
+	  font-size: 20px;
     font-family: "museo_sans300", "Helvetica";
     line-height: 1.6;
 
@@ -81,20 +81,17 @@ h2{
     line-height: 20;
 
 }
-/*formatação do texto*/
-.text-justify{
-    text-align: justify;
-    font-size:20px;
-    font-family: "museo_sans300", "Helvetica";
-    line-height: 1.6;
-}
+
 /*formatação da div que contém o texto*/
 .text-architeture{
   width:960px;
-  float: middle;
   position:absolute;
   left:50%;
   margin-left:-480px;
+  text-align: justify;
+  font-size:20px;
+  font-family: "museo_sans300", "Helvetica";
+  line-height: 1.6;
 }
 
 h4 {
@@ -124,7 +121,6 @@ h5:after{
   width: 200px;
   height: 2px;
   background: #EBEBEA;
-  margin: 0 auto;
 }
 
 h6{
@@ -193,12 +189,14 @@ h6:after{
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.imagem{
+  text-align: center;
+}
 .architecture-section {
 	width:1140px;
 	margin-left:105px;
   height: 1170px;
   padding-top: 30px;
-  text-align: center;
   background: #FFFFFF;
 }
 .terraces-section {
@@ -332,10 +330,10 @@ input[type=reset]{
     left: 138px
    }
    
-   #footer{    
-    background: #EBEBEA;
-    position:absolute;
-    bottom:0; 
-    width:100%;
-    margin-top: 10px;
+.footer{    
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Mesma Altura do Rodapé */
+   background:#EBEBEA;
 }
