@@ -59,7 +59,7 @@ h2{
 .text-center{
     /*Formatação da div*/
     width: 1000px;
-    padding-left: 20%;
+    padding-left: 10%;
     padding-top: 5px;
     /*Formatação do Texto*/
     text-align: justify;
@@ -124,8 +124,9 @@ h5:after{
 }
 
 h6{
-  font-size: 23px;
-  text-align: center;
+  font-size: 1.2em;
+  text-align: left;
+  padding-left: 30px;
 
 }
 h6:after{
@@ -136,6 +137,7 @@ h6:after{
   background: #EBEBEA;
   margin: 0 auto;
 }
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -220,7 +222,7 @@ of those sections to manage the look and feel of the site. */
 .schedule-section{
 	width:1140px;
 	margin-left:105px;
-    height: 1580px;
+    height: 2000px;
     padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
@@ -229,7 +231,7 @@ of those sections to manage the look and feel of the site. */
 .contact-section{
 	width:1140px;
 	margin-left:105px;
-    height: 675px;
+    height: 647px;
     padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
@@ -238,7 +240,7 @@ of those sections to manage the look and feel of the site. */
 .footer-section{
   width:1140px;
   margin-left:105px;
-    height: 20px;
+    height: 30px;
     text-align: right;
     background: #EBEBEA;
 }
