@@ -36,12 +36,12 @@ h2{
 .text-schedule{
   width: 95%;
   height:1200px;
-  padding-left:150px;
+  padding-left:200px;
 }
 
 .dl-horizontal dt {
   float: left;
-  width: 300px;
+  width: 200px;
   overflow: hidden;
   clear: left;
   text-align: left;
@@ -112,7 +112,7 @@ h4:after, h4:before {
 h5{
   font-size: 23px;
   text-align: left;
-  padding-top:30px;
+  padding-top:20px;
 
 }
 h5:after{
@@ -125,7 +125,7 @@ h5:after{
 
 h6{
   font-size: 1.2em;
-  text-align: left;
+  text-align: center;
   padding-left: 30px;
 
 }
@@ -136,6 +136,58 @@ h6:after{
   height: 2px;
   background: #EBEBEA;
   margin: 0 auto;
+}
+
+.texto-internal{
+   width: 700px;
+   height: 100px;
+   padding-left: 50px;
+}
+
+.texto-internal2{
+   width: 700px;
+   height: 150px;
+}
+
+.texto-externo{
+   width: 700px;
+   height: 120px;
+   padding-bottom: 50px; 
+}
+
+.texto-bathroom{
+   width: 700px;
+   height: 200px;
+   padding-bottom: 50px;  
+}
+
+.texto-bedroom{
+   width: 700px;
+   height: 60px;
+   padding-bottom: 50px;  
+}
+
+.texto-kitchen{
+   width: 700px;
+   height: 240px;
+   padding-bottom: 50px;  
+}
+
+.texto-laundry{
+   width: 700px;
+   height: 80px;
+   padding-bottom: 50px;  
+}
+
+.texto-hot{
+   width: 700px;
+   height: 30px;
+   padding-bottom: 50px;  
+}
+
+.texto-titulo{
+   width: 700px;
+   padding-left: 50px; 
 }
 
 
@@ -222,7 +274,7 @@ of those sections to manage the look and feel of the site. */
 .schedule-section{
 	width:1140px;
 	margin-left:105px;
-    height: 2000px;
+    height: 1900px;
     padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
@@ -241,7 +293,7 @@ of those sections to manage the look and feel of the site. */
   width:1140px;
   margin-left:105px;
     height: 30px;
-    text-align: right;
+    text-align: left;
     background: #EBEBEA;
 }
 
@@ -339,11 +391,3 @@ input[type=reset]{
     width: 0; 
     left: 138px
    }
-   
-.footer{    
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Mesma Altura do Rodapé */
-   background:#EBEBEA;
-}
