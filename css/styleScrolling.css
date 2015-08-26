@@ -247,15 +247,11 @@ of those sections to manage the look and feel of the site. */
   text-align: center;
 }
 .architecture-section {
-	width:1140px;
-	margin-left:105px;
   height: 1170px;
   padding-top: 30px;
   background: #FFFFFF;
 }
 .terraces-section {
-	width:1140px;
-	margin-left:105px;
     height: 700px;
     padding-top: 25px;
     text-align: center;
@@ -263,8 +259,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 .location-section {
-	width:1140px;
-	margin-left:105px;
     height: 650px;
     padding-top: 15px;
     text-align: center;
@@ -272,8 +266,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 .schedule-section{
-	width:1140px;
-	margin-left:105px;
     height: 1900px;
     padding-top: 30px;
     text-align: center;
@@ -281,8 +273,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section{
-	width:1140px;
-	margin-left:105px;
     height: 647px;
     padding-top: 30px;
     text-align: center;
@@ -290,8 +280,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 .footer-section{
-  width:1140px;
-  margin-left:105px;
     height: 30px;
     text-align: left;
     background: #EBEBEA;
@@ -391,3 +379,11 @@ input[type=reset]{
     width: 0; 
     left: 138px
    }
+
+.navbar-collapse img {
+  margin-bottom: 10px;
+}
+
+.navbar-collapse .nav {
+  padding-top: 25px;
+}
