@@ -35,7 +35,7 @@ h2{
 
 .dl-horizontal dt {
   float: left;
-  width: 200px;
+  /*width: 200px;*/
   overflow: hidden;
   clear: left;
   text-align: left;
@@ -51,7 +51,7 @@ h2{
 
 .dl-horizontal2 dt {
   float: left;
-  width: 180px;
+  /*width: 180px;*/
   overflow: hidden;
   clear: left;
   text-align: left;
@@ -79,7 +79,7 @@ h2{
 
 .text-center2{
     /*Formatação da div*/
-    width: 860px;
+   /* width: 860px;*/
     padding-left: 20%;
     padding-top: 20px;
     /*Formatação do Texto*/
@@ -107,7 +107,6 @@ h4 {
 h4:after, h4:before {
   content: '';
   display: block;
-  width: 940px;
   height: 4px;
   background: #EBEBEA;
   margin: 0 auto;
@@ -122,7 +121,6 @@ h5{
 h5:after{
   content: '';
   display: block;
-  width: 200px;
   height: 2px;
   background: #EBEBEA;
 }
@@ -136,61 +134,51 @@ h6{
 h6:after{
   content: '';
   display: block;
-  width: 200px;
   height: 2px;
   background: #EBEBEA;
   margin: 0 auto;
 }
 
 .texto-internal{
-   width: 700px;
    height: 100px;
    padding-left: 20px;
 }
 
 .texto-internal2{
-   width: 700px;
    height: 150px;
 }
 
 .texto-externo{
-   width: 700px;
    height: 120px;
    padding-bottom: 50px; 
 }
 
 .texto-bathroom{
-   width: 700px;
    height: 200px;
    padding-bottom: 50px;  
 }
 
 .texto-bedroom{
-   width: 700px;
    height: 60px;
    padding-bottom: 50px;  
 }
 
 .texto-kitchen{
-   width: 700px;
    height: 240px;
    padding-bottom: 50px;  
 }
 
 .texto-laundry{
-   width: 700px;
    height: 80px;
    padding-bottom: 50px;  
 }
 
 .texto-hot{
-   width: 700px;
    height: 30px;
    padding-bottom: 50px;  
 }
 
 .texto-titulo{
-   width: 700px;
    padding-left: 50px; 
 }
 
@@ -215,7 +203,7 @@ h6:after{
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 530px;
-  width: 900px;
+  /*width: 900px;*/
   margin-left: 50px;
 
 }
@@ -250,40 +238,34 @@ of those sections to manage the look and feel of the site. */
   text-align: center;
 }
 .architecture-section {
-  height: 1170px;
   padding-top: 30px;
   background: #FFFFFF;
 }
 .terraces-section {
-    height: 700px;
     padding-top: 25px;
     text-align: center;
     background: #FFFFFF;
 }
 
 .location-section {
-    height: 650px;
     padding-top: 15px;
     text-align: center;
     background: #FFFFFF;
 }
 
-.schedule-section{
-    height: 1900px;
+.schedule-section{  
     padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
 }
 
 .contact-section{
-    height: 647px;
     padding-top: 30px;
     text-align: center;
     background: #FFFFFF;
 }
 
 .footer-section{
-    height: 30px;
     text-align: left;
     background: #EBEBEA;
 }
@@ -298,14 +280,12 @@ input[type=text]{
     -webkit-box-shadow: 1px 1px 2px #333333;
     background: #F8F8F8; 
     border:1px solid #000000;
-    width:350px;
 	  height:30px;
 }
 
 textarea{
     border: 1px solid #000000;
     background:#F8F8F8;
-    width:350px;
     height:100px;
     border-radius:4px;
     -moz-border-radius:4px;
@@ -330,7 +310,6 @@ input[type=reset]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-	width: 100px;
 	height: 50px;
 }
 
