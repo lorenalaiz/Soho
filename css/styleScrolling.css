@@ -55,6 +55,22 @@ h2{
   text-align: left;
 }
 
+.dl-horizontal2 dt {
+  float: left;
+  width: 180px;
+  overflow: hidden;
+  clear: left;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dl-horizontal2 dd {
+  margin-left: 20px;
+  float: left;
+  text-align: left;
+}
+
 
 .text-center{
     /*Formatação da div*/
