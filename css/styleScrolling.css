@@ -33,12 +33,6 @@ h2{
 	
 }
 
-.text-schedule{
-  width: 95%;
-  height:1200px;
-  padding-left:200px;
-}
-
 .dl-horizontal dt {
   float: left;
   width: 200px;
@@ -74,8 +68,6 @@ h2{
 
 .text-center{
     /*Formatação da div*/
-    width: 1000px;
-    padding-left: 10%;
     padding-top: 5px;
     /*Formatação do Texto*/
     text-align: justify;
@@ -100,10 +92,6 @@ h2{
 
 /*formatação da div que contém o texto*/
 .text-architeture{
-  width:960px;
-  position:absolute;
-  left:50%;
-  margin-left:-480px;
   text-align: justify;
   font-size:20px;
   font-family: "museo_sans300", "Helvetica";
@@ -213,7 +201,6 @@ h6:after{
 /* Carousel base class */
 .carousel {
   height: 530px;
-  width: 1000px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -364,7 +351,6 @@ input[type=reset]{
 
 #map{
     height: 490px;
-    width: 1024px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -403,3 +389,5 @@ input[type=reset]{
 .navbar-collapse .nav {
   padding-top: 25px;
 }
+
+
