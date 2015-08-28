@@ -14,9 +14,36 @@ html {
     height: 100%;
 }
 
+/* navbar */
+.navbar-default {
+    background-color: #333;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #EBEBEA;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #EBEBEA;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #EBEBEA;
+}
+
+.navbar-collapse img {
+  margin-bottom: 10px;
+}
+
+.navbar-collapse .nav {
+  padding-top: 25px;
+}
+
+
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 1px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -27,39 +54,41 @@ html {
     }
 }
 
+
+
 /* DESCRICAO DAS SECTIONS*/
 
 .architecture-section  {
-    height: 100%;
-    padding-top: 150px;
+    height: 160%;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
 }
 
 .terraces-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 110%;
+    padding-top: 10px;
     text-align: center;
     background: #eee;
 }
 
 .schedule-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 235%;
+    padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .location-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 25px;
     text-align: center;
     background: #eee;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 30px;
     text-align: center;
     background: #fff;
 }
@@ -72,3 +101,62 @@ html {
   font-family: "museo_sans300", "Helvetica";
   line-height: 1.6;
 }
+
+.texto-schedule{
+  width: 80%;
+  margin-left: 3%;
+  text-align: left;
+}
+
+.dl-horizontal dt {
+  text-align: left;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  width: 90%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  width: 90%;
+  margin-left: 50px;
+
+}
+.carousel-inner > .item > img {
+  width: 90%;
+  position: relative;
+  margin: auto;
+
+}
+
+#map{
+    height: 490px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+/*FORM CONTACT US*/
+.class-form-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 1.875em;
+    font-family: "museo_sans300", "Helvetica";

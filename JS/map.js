@@ -38,10 +38,6 @@ function carregarPontos() {
 			151.130118,
 			1,
             "pictures/icon-logo.png",
-			"Teste Name 1",
-			"",
-			"Teste Desc 1",
-			"Teste Desc 1.1"
 		],
 		[
 			"Westfield Miranda",
@@ -50,8 +46,6 @@ function carregarPontos() {
 			2,
             "pictures/icon-mall.png",
 			"Distance from Highfield Terraces: 4.4Km ",
-			"Teste Desc 2",
-			"Teste Desc 2.1"
 		],
 		[
 			"Cronulla Beach",
@@ -60,9 +54,6 @@ function carregarPontos() {
 			3,
             "pictures/icon-beach.png",
             "Distance from Highfield Terraces: 3.4Km ",
-			"Teste Name 3.1",
-			"Teste Desc 3",
-			"Teste Desc 3.1"
 		],
         [
             "Caringbah Shopping Village",
@@ -71,9 +62,6 @@ function carregarPontos() {
             4,
             "pictures/icon-mall.png",
             "Distance from Highfield Terraces: 2.4Km ",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
         ],
         [
             "Sutherland Hospital",
@@ -82,9 +70,6 @@ function carregarPontos() {
             4,
             "pictures/icon-hospital.png",
             "Distance from Highfield Terraces: 2.2Km ",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
         ],
         [
             "Burraneer Bay Public School",
@@ -93,9 +78,6 @@ function carregarPontos() {
             4,
             "pictures/icon-school.png",
             "Distance from Highfield Terraces: xxx ",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
         ],
         [
             "Woolooware High School",
@@ -104,9 +86,6 @@ function carregarPontos() {
             4,
             "pictures/icon-school.png",
             "Distance from Highfield Terraces: 2.1Km ",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
         ],
         [
             "Caringbah North Public School",
@@ -115,9 +94,6 @@ function carregarPontos() {
             4,
             "pictures/icon-school.png",
             "Distance from Highfield Terraces: 2Km ",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
         ],
         [
             "Miranda North Primary School",
@@ -126,9 +102,6 @@ function carregarPontos() {
             4,
             "pictures/icon-school.png",
             "Distance from Highfield Terraces: 3.5Km",
-            "Teste Name 3.1",
-            "Teste Desc 3",
-            "Teste Desc 3.1"
         ],
 	]
     
