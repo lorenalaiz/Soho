@@ -143,6 +143,12 @@ h6:after{
     background: #fff;
 }
 
+.footer-section{
+    height: 30px;
+    text-align: left;
+    background: #EBEBEA;
+}
+
 /* FONT SECTIONS*/
 
 .text-architeture{
