@@ -59,36 +59,36 @@ html {
 /* DESCRICAO DAS SECTIONS*/
 
 .architecture-section  {
-    height: 160%;
+  /*  height: 160%;*/
     padding-top: 100px;
     text-align: center;
     background: #fff;
 }
 
 .terraces-section {
-    height: 110%;
+  /*  height: 110%;*/
     padding-top: 10px;
     text-align: center;
     background: #eee;
 }
 
 .schedule-section {
-    height: 235%;
+   /* height: 235%;*/
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .location-section {
-    height: 100%;
+   /*height: 100%;*/
     padding-top: 25px;
     text-align: center;
     background: #eee;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 30px;
+  /*  height: 100%;*/
+    padding-top: 10px;
     text-align: center;
     background: #fff;
 }
