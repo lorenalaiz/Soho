@@ -134,6 +134,7 @@ html {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   width: 90%;
+  max-height: 550px;
   margin-left: 50px;
 
 }
@@ -160,3 +161,8 @@ html {
     text-align: center;
     font-size: 1.875em;
     font-family: "museo_sans300", "Helvetica";
+
+.class-form-right{
+    float: right;
+    text-align: left;
+}
