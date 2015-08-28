@@ -1,0 +1,369 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body{ 
+   /* background-color: #EBEBEA;*/
+   /*background-image: url(../pictures/background1.jpg);*/
+    background-repeat: repeat;
+    background-size: 35%;
+}
+
+.navbar {
+  margin-bottom: 0,063em;
+}
+
+     } 
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    
+    color: #333;
+    background-color: #EBEBEA;
+    width: 100%;
+}
+
+h3{
+    text-align: justify;
+    margin:20px 50px 50px 0;
+}
+
+h2{
+	text-align: left;
+    padding:20px 50px 100px 20px;
+	
+}
+
+.dl-horizontal dt {
+  padding-left: 15%;
+  width: 50%;
+  overflow: hidden;  
+  text-align: left;
+
+}
+
+.dl-horizontal dd {
+  margin-left:0;
+  float: left;
+  text-align: left;
+}
+
+
+.text-center{
+    /*Formatação da div*/
+    width: 70%;
+    margin: 0.4% 15% 0 15%;
+    /*Formatação do Texto*/
+    text-align: justify;
+	  font-size: 1.25em;
+    font-family: "museo_sans300", "Helvetica";
+    line-height: 1.6;
+
+}
+
+.text-center2{
+    /*Formatação da div*/
+   /* width: 860px;*/
+    padding-left: 20%;
+    padding-top: 20px;
+    /*Formatação do Texto*/
+    text-align: center;
+    font-size: 1.125em;
+    font-family: "museo_sans300", "Helvetica";
+    line-height: 20;
+
+}
+
+/*formatação da div que contém o texto*/
+.text-architeture{
+  text-align: justify;
+  font-size:1.25em;
+  font-family: "museo_sans300", "Helvetica";
+  line-height: 1.6;
+}
+
+h4 {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+h4:after, h4:before {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 4px;
+  background: #EBEBEA;
+  margin: 0 auto;
+}
+
+h5{
+  font-size: 1.4375em;
+  text-align: left;
+  padding-top:1.73%px;
+  padding-left: 80px;
+
+}
+h5:after{
+  content: '';
+  display: block;
+  height: 2px;
+  background: #EBEBEA;
+  width: 26.31%;
+}
+
+h6{
+  font-size: 1.2em;
+  text-align: center;
+  padding-left: 30px;
+
+}
+h6:after{
+  content: '';
+  display: block;
+  height: 2px;
+  background: #EBEBEA;
+  margin: 0 auto;
+  width: 52%;
+}
+
+.texto-internal{
+  width: 80%;
+  height: 100px;
+  margin-left: 5%;
+}
+
+.texto-internal2{
+  width: 80%;
+  height: 150px;
+  margin-left: 3%;
+}
+
+.texto-externo{
+   height: 120px;
+   padding-bottom: 50px; 
+}
+
+.texto-bathroom{
+   height: 200px;
+   padding-bottom: 50px;  
+}
+
+.texto-bedroom{
+   height: 60px;
+   padding-bottom: 50px;  
+}
+
+.texto-kitchen{
+   height: 240px;
+   padding-bottom: 50px;  
+}
+
+.texto-laundry{
+   height: 80px;
+   padding-bottom: 50px;  
+}
+
+.texto-hot{
+   height: 30px;
+   padding-bottom: 50px;  
+}
+
+.texto-titulo{
+   margin-left: 50px; 
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 530px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 530px;
+  /*width: 900px;*/
+  margin-left: 50px;
+
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  min-width: 900px;
+  height: 530px;
+  position: relative;
+
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 1px 0;
+        -webkit-transition: background .2s ease-in-out,padding .2s ease-in-out;
+        -moz-transition: background .2s ease-in-out,padding .2s ease-in-out;
+        transition: background .2s ease-in-out,padding .2s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.imagem{
+  text-align: center;
+}
+.architecture-section {
+  padding-top: 5px;
+  background: #FFFFFF;
+}
+.terraces-section {
+    padding-top: 25px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.location-section {
+    padding-top: 15px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.schedule-section{  
+    padding-top: 30px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.contact-section{
+    padding-top: 0px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.footer-section{
+    text-align: left;
+    background: #EBEBEA;
+}
+
+/*formulário*/
+
+input[type=text]{     
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #F8F8F8; 
+    border:1px solid #000000;
+	  height:30px;
+}
+
+textarea{
+    border: 1px solid #000000;
+    background:#F8F8F8;
+    height:100px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+input[type=text]:hover, textarea:hover{ 
+         background: #ffffff; border:1px solid #990000;
+}
+
+input[type=submit]{
+    color: #F8F8F8;
+    background-color: #333;
+    border-radius: 10px;
+	width: 100px;
+	height: 50px;
+}
+input[type=reset]{
+    color: #F8F8F8;
+    background-color: #333;
+    border-radius: 10px;
+	height: 50px;
+}
+
+.class-form-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 1.875em;
+    font-family: "museo_sans300", "Helvetica";
+}
+.class-form-right{
+    float: right;
+    text-align: left;
+    font-size: 0.9375em;
+    font-family: "museo_sans300", "Helvetica";
+}
+
+#map{
+    height: 490px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.infoBox { 
+    background-color: #FFF; 
+   /* width: 300px; */
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.875em; border: 2px solid #3fa7d8; 
+    border-radius: 3px; 
+    margin-top: 10px 
+  }
+
+.infoBox p { 
+    padding: 15px 
+  }
+
+.infoBox:before { 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid #3fa7d8; 
+    top: -10px; 
+    content: ""; 
+    height: 0; 
+    position: absolute; 
+    width: 0; 
+    left: 138px
+   }
+
+.navbar-collapse img {
+  margin-bottom: 10px;
+}
+
+.navbar-collapse .nav {
+  padding-top: 25px;
+}
+
+
