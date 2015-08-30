@@ -5,10 +5,8 @@
  */
 
 body {
-    width: 100%;
-    height: 100%;
     background: url(../pictures/background1.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 html {
@@ -113,35 +111,40 @@ h6:after{
 /* DESCRICAO DAS SECTIONS*/
 
 .architecture-section  {
-  /*  height: 160%;*/
+    width: 78.10%;
+    margin-left:10.94%;
     padding-top: 100px;
     text-align: center;
     background: #fff;
 }
 
 .terraces-section {
-  /*  height: 110%;*/
+    width: 78.10%;
+    margin-left:10.94%;
     padding-top: 10px;
     text-align: center;
     background: #fff;
 }
 
 .schedule-section {
-   /* height: 235%;*/
+    width: 78.10%;
+    margin-left:10.94%;
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .location-section {
-   /*height: 100%;*/
+    width: 78.10%;
+    margin-left:10.94%;
     padding-top: 25px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
-  /*  height: 100%;*/
+    width: 78.10%;
+    margin-left:10.94%;
     padding-top: 5px;
     padding-bottom: 100px;
     text-align: center;
@@ -157,6 +160,13 @@ h6:after{
 /* FONT SECTIONS*/
 
 .text-architeture{
+  text-align: justify;
+  font-size:1.25em;
+  font-family: "museo_sans300", "Helvetica";
+  line-height: 1.6;
+}
+
+.text-center{
   text-align: justify;
   font-size:1.25em;
   font-family: "museo_sans300", "Helvetica";
