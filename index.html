@@ -106,7 +106,7 @@
                     <h1>Terraces</h1>
                     <br>
                  <!-- Carousel -->
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -288,7 +288,8 @@
                 <div class="col-lg-12">
                     <h1>Location</h1>
                     <br>
-                    <div id="map"></div>
+                    <div id="map">
+                    </div>
                     <br>
                     <h6>238-243 Kingsway, Caringbah</h6>
                 </div>
@@ -311,22 +312,22 @@
                             <p>9281 1588</p>
                         </div>
                         <div class="class-form-right">
-                            <form>
+                            <form id="frmContato" name="frmContato" method="POST" enctype="multipart/form-data">
                                  <div class="form-group">
 									<label for="name">Name:</label>
 								 </div>
-									<p><input type=text name="nome"></p><br>
+									<p><input type=text id="name" name="name"></p><br>
 								 
 								 <div class="font-form">
                     				    <label>Email: </label>
                     			 </div>
-                    				<p><input type=text name="message"></p><br>
+                    				<p><input type=text id="email" name="email"></p><br>
 								
 								 <div class="font-form">
                     						<label>Message: </label>
 								 </div>
-                    				<p><textarea name="Mensagem" rows="10"></textarea></p><br>
-									<p><input type="submit" value="Send Email"> <input type="reset" value="Clear Form"></p>
+                    				<p><textarea id="message" name="message" rows="10"></textarea></p><br>
+									<p><input type="submit" id="sendMail" name="sendMail" value="Send Email"> <input type="reset" value="Clear Form"></p>
 								
                             </form>
                         </div>
@@ -366,6 +367,9 @@
         
         <!-- Agrupamento dos marcadores -->
         <script src="js/markerclusterer.js"></script>
+
+        <!-- Envio de emails -->
+        <script src="js/sendmail.js" type="text/javascript"></script>
 
 </body>
 
