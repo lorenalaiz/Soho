@@ -157,6 +157,7 @@ function abrirInfoBox(id, marker) {
                 pixelOffset: new google.maps.Size(-150, 0)
             };
 
+            
             infoBox[ponto.Id] = new InfoBox(myOptions);
             infoBox[ponto.Id].marker = marker;
             
