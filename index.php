@@ -74,7 +74,7 @@
                             <a class="page-scroll" href="#terraces">TERRACES</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#schedule">FINISH SCHEDULE</a>
+                            <a class="page-scroll" href="#schedule">FINISHES SCHEDULE</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#location">LOCATION</a>
@@ -92,10 +92,10 @@
     </nav>
 
     <!-- Architecture Section -->
-    <section id="architecture" class="architecture-section">
+    <section id="architecture" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-10">
+				<div class="architecture-section">            
                     <img src="pictures/CGI - Exterior.jpg" width="90%" alt="Exterior">
                     <h4>Luxury Living in Highfield Terraces</h4>
                     <div class="text-architeture">
@@ -114,10 +114,10 @@
     </section>
 
     <!-- Terracest Section -->
-    <section id="terraces" class="terraces-section">
+    <section id="terraces" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-10">
+                <div class="terraces-section">
                     <h1>Terraces</h1>
                     <br>
                     <!-- Carousel -->
@@ -169,11 +169,11 @@
     </section>
 
     <!-- Services Section -->
-    <section id="schedule" class="schedule-section">
+    <section id="schedule">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10">
-                    <h1>Finish Schedule</h1>
+                <div class="schedule-section">
+                    <h1>Finishes Schedule</h1>
                     <br>
                     <div class="text-center">
                         <span>Building designed to comply with the conditions of all relevant Acts and Australian Standard Codes including Fire, Acoustic & Impact Provisions. </span>
@@ -202,7 +202,7 @@
                         <dl class="dl-horizontal">                          
                             <div class="texto-schedule">    
                                 <dt>SECURITY: </dt>                 <dd>Burglar alarm system video intercom</dd>
-                                <dt>INTERNET/ TV/TEL:</dt>          <dd>Internet 4/tel/ pay & free-to-air tv connections  </dd>
+                                <dt>INTERNET/ TV/TEL:</dt>          <dd>Internet/ tel/ pay & free-to-air tv connections  </dd>
                                 <dt>AIR COND. / HEATING:</dt>       <dd>Daikin fully ducted reverse cycle</dd> 
                                 <dt>&nbsp;</dt>                     <dd>Gas heater connection bayonet in living area</dd>
                                 <dt>DOOR HARDWARE:</dt>             <dd>Stainless steel finish</dd>
@@ -298,10 +298,10 @@
     </section>
 
     <!-- Services Section -->
-    <section id="location" class="location-section">
+    <section id="location">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10">
+                <div class="location-section">
                     <h1>Location</h1>
                     <br>
                     <div id="map">
@@ -314,18 +314,18 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10">
+                <div class="contact-section">
                     <h1>Contact Us</h1>
                     <br>
                     <br>
                     <div class="class-form-left">
                         <br>
-                        <img src="pictures/soho.jpg" width="45%" align="center"  alt="Soho">
+                        <img src="pictures/soho.jpg" width="45%" align="center"  alt="Soho" />
                         <br>
-                        <p>9281 1588</p>
+                        <p>02 9281 1588</p>
                     </div>
                     <div class="class-form-right">
                         <form id="frmContato" name="frmContato" method="POST" enctype="multipart/form-data">
@@ -340,6 +340,11 @@
                             <p><input type=text id="email" name="email"></p><br>
 
                             <div class="font-form">
+                            <label>Phone number: </label>
+                            </div>
+                            <p><input type=text id="phone" name="email"></p><br>
+
+                            <div class="font-form">
                             <label>Message: </label>
                             </div>
                             <p><textarea id="message" name="message" rows="10"></textarea></p><br>
@@ -352,10 +357,10 @@
         </div>
     </section>
 
-    <section id="footer" class="footer-section" >
+    <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10">
+                <div class="footer-section">
                     <p>&copy; JL Corporation</p>
                 </div>
             </div>   

@@ -109,11 +109,13 @@ h6:after{
 
 
 /* DESCRICAO DAS SECTIONS*/
+.col-lg-12 {
+  width: 73.98%;
+}
 
 .architecture-section  {
     width: 78.10%;
     margin-left:10.94%;
-    padding-left: 2.6%;
     padding-top: 100px;
     text-align: center;
     background: #fff;
@@ -122,7 +124,6 @@ h6:after{
 .terraces-section {
     width: 78.10%;
     margin-left:10.94%;
-    padding-left: 2.6%;
     padding-top: 10px;
     text-align: center;
     background: #fff;
@@ -131,7 +132,6 @@ h6:after{
 .schedule-section {
     width: 78.10%;
     margin-left:10.94%;
-    padding-left: 2.6%;
     padding-top: 20px;
     text-align: center;
     background: #fff;
@@ -140,32 +140,34 @@ h6:after{
 .location-section {
     width: 78.10%;
     margin-left:10.94%;
-    padding-left: 2.6%;
     padding-top: 25px;
     text-align: center;
     background: #fff;
+   /* padding-bottom: 2.5%;*/
 }
 
 .contact-section {
     width: 78.10%;
     margin-left:10.94%;
-    padding-left: 2.6%;
-    padding-top: 5px;
-    padding-bottom: 100px;
+    padding-top: 25px;
     text-align: center;
     background: #fff;
 }
+
 
 .footer-section{
     
     height: 30px;
     text-align: left;
+    padding-left: 10%;
     background: #EBEBEA;
 }
 
 /* FONT SECTIONS*/
 
 .text-architeture{
+  width: 94%;
+  padding-left: 5%;
   text-align: justify;
   font-size:1.25em;
   font-family: "museo_sans300", "Helvetica";
@@ -173,6 +175,8 @@ h6:after{
 }
 
 .text-center{
+  width: 93%;
+  padding-left: 5%;
   text-align: justify;
   font-size:1.25em;
   font-family: "museo_sans300", "Helvetica";
@@ -180,8 +184,8 @@ h6:after{
 }
 
 .texto-schedule{
-  width: 80%;
-  margin-left: 8%;
+  width: 93%;
+  margin-left: 6%;
   text-align: left;
 }
 
@@ -206,7 +210,7 @@ h6:after{
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -217,14 +221,13 @@ h6:after{
 /* Declare heights because of positioning of img element */
 .carousel .item {
   width: 90%;
-  max-height: 550px;
+  max-height: 76.67%;
   margin-left: 50px;
 
 }
 .carousel-inner > .item > img {
   width: 90%;
   position: relative;
-  margin: auto;
 
 }
 
@@ -275,20 +278,21 @@ input[type=submit]{
     border-radius: 10px;
 	width: 17.54%;
 	height: 50px;
+  font-size: 1.6em;
 }
 input[type=reset]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-	width: 17.54%;
-	height: 50px;
+	width: 19%;
+	height: auto;
 }
 input[type=button]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-  width: 17.54%;
-  height: 50px;
+  width: 19%;
+  height: auto;
 }
 
 .class-form-left{
@@ -302,8 +306,4 @@ input[type=button]{
 	width: 50%;
     float: right;
     text-align: left;
-}
-
-.col-lg-10 {
-  width: 85.33333333%;
 }
