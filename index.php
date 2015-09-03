@@ -330,26 +330,25 @@
                     <div class="class-form-right">
                         <form id="frmContato" name="frmContato" method="POST" enctype="multipart/form-data">
                             <div class="form-group">
-                            <label for="name">Name:</label>
+                                <label for="name">Name:</label>
                             </div>
                             <p><input type=text id="name" name="name"></p><br>
 
                             <div class="font-form">
-                            <label>Email: </label>
+                                <label>Email: </label>
                             </div>
                             <p><input type=text id="email" name="email"></p><br>
 
                             <div class="font-form">
-                            <label>Phone number: </label>
+                                <label>Phone number: </label>
                             </div>
                             <p><input type=text id="phone" name="email"></p><br>
 
                             <div class="font-form">
-                            <label>Message: </label>
+                                <label>Message: </label>
                             </div>
                             <p><textarea id="message" name="message" rows="10"></textarea></p><br>
                             <p><input type="button" id="sendMail" name="sendMail" value="Send Email"> <input type="reset" value="Clear Form"></p>
-
                         </form>
                     </div>
                 </div>
