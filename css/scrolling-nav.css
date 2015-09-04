@@ -113,53 +113,46 @@ h6:after{
   width: 73.98%;
 }
 
-.architecture-section  {
-    width: 78.10%;
-    margin-left:10.94%;
-    padding-top: 100px;
+
+.conteudo{
+    width: 67.67%;
+    margin-left: 15%;
+    background: #fff;
+}
+
+.architecture-section  {    
+    padding-top: 80px;
     text-align: center;
     background: #fff;
 }
 
 .terraces-section {
-    width: 78.10%;
-    margin-left:10.94%;
     padding-top: 10px;
     text-align: center;
     background: #fff;
 }
 
 .schedule-section {
-    width: 78.10%;
-    margin-left:10.94%;
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .location-section {
-    width: 78.10%;
-    margin-left:10.94%;
     padding-top: 25px;
     text-align: center;
     background: #fff;
-   /* padding-bottom: 2.5%;*/
 }
 
 .contact-section {
-    width: 78.10%;
-    margin-left:10.94%;
-    padding-top: 25px;
     text-align: center;
     background: #fff;
 }
 
 
 .footer-section{
-    
     height: 30px;
-    text-align: left;
-    padding-left: 10%;
+    padding-left: 16%;
     background: #EBEBEA;
 }
 
@@ -173,6 +166,7 @@ h6:after{
   font-family: "museo_sans300", "Helvetica";
   line-height: 1.6;
 }
+
 
 .text-center{
   width: 93%;
@@ -284,14 +278,14 @@ input[type=reset]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-	width: 19%;
+	width: 23%;
 	height: auto;
 }
 input[type=button]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-  width: 19%;
+  width: 23%;
   height: auto;
 }
 
@@ -303,7 +297,8 @@ input[type=button]{
     font-family: "museo_sans300", "Helvetica";
 }
 .class-form-right{
-	width: 50%;
-    float: right;
+	  width: 50%;
+    margin-left: 50%;
+    padding-left: 7%;
     text-align: left;
 }

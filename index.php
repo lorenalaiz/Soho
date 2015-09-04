@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--<a class="navbar-brand page-scroll" href="#page-top"><img src="pictures/Logo.png" width="15%"  align="left" alt="Logo"></a>-->
-                <a href="index.html"><img src="pictures/Logo.png" width="15%" align="left"  alt="Logo"></a>
+                <a href="index.php"><img src="pictures/Logo.png" width="15%" align="left"  alt="Logo"></a>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -92,278 +92,259 @@
     </nav>
 
     <!-- Architecture Section -->
+ <div class="conteudo">
     <section id="architecture" >
-        <div class="container">
-            <div class="row">
-				<div class="architecture-section">            
-                    <img src="pictures/CGI - Exterior.jpg" width="90%" alt="Exterior">
-                    <h4>Luxury Living in Highfield Terraces</h4>
-                    <div class="text-architeture">
-                        <span>
-                            <br>A stylish development representing an opportunity to position yourself within walking distance to the cosmopolitan lifestyle of Cronulla Beach.
-                            <br><br>The quality design and modern finishes to the finest detail make these captivating 4 bedroom terrace homes the benchmark for residential living never before seen in Caringbah. 
-                            <br><br>Designed by award winning architect Damian Scard and built by the reputable Astute Constructions, these stunning homes are highly private, secure and offer easy-care living. The beautifully presented homes feature open plan living with quality timber flooring, gourmet kitchens, stone benchtops and Miele appliances.
-                            <br><br>Perfectly positioned in the heart of Caringbah and minutes away from Caringbah Shopping Village, Miranda Fair and the train station make Highfield Terraces the ideal address.
-                            <br><br>
-                            <CENTER><a class="page-scroll" href="#contact";>Please contact our Sales Team at SOHO for further detail. </a></CENTER>
-                        </span>
-                    </div>
-                </div>
-            </div>
+	<div class="architecture-section">            
+        <img src="pictures/CGI - Exterior.jpg" width="90%" alt="Exterior">
+        <h4>Luxury Living in Highfield Terraces</h4>
+        <div class="text-architeture">
+            <span>
+                <br>A stylish development representing an opportunity to position yourself within walking distance to the cosmopolitan lifestyle of Cronulla Beach.
+                <br><br>The quality design and modern finishes to the finest detail make these captivating 4 bedroom terrace homes the benchmark for residential living never before seen in Caringbah. 
+                <br><br>Designed by award winning architect Damian Scard and built by the reputable Astute Constructions, these stunning homes are highly private, secure and offer easy-care living. The beautifully presented homes feature open plan living with quality timber flooring, gourmet kitchens, stone benchtops and Miele appliances.
+                <br><br>Perfectly positioned in the heart of Caringbah and minutes away from Caringbah Shopping Village, Miranda Fair and the train station make Highfield Terraces the ideal address.
+                <br><br>
+                <CENTER><a class="page-scroll" href="#contact";>Please contact our Sales Team at SOHO for further detail. </a></CENTER>
+            </span>
         </div>
+    </div>
     </section>
 
     <!-- Terracest Section -->
     <section id="terraces" >
-        <div class="container">
-            <div class="row">
-                <div class="terraces-section">
-                    <h1>Terraces</h1>
-                    <br>
-                    <!-- Carousel -->
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img class="first-slide" src="pictures/CGI - living.jpg" width="90%" alt="First slide">
-                                <div class="container">
-                                    <div class="carousel-caption">
-                                        <!-- <h2>Photo 1</h2> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="second-slide" src="pictures/CGI - Bedroom.jpg" width="90%" alt="Second slide">
-                                <div class="container">
-                                    <div class="carousel-caption">
-                                        <!-- <h2>Photo 2</h2> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="third-slide" src="pictures/CGI - kitchen.jpg" width="90%" alt="Third slide">
-                                <div class="container">
-                                    <div class="carousel-caption">
-                                        <!-- <h2>Photo 3</h2> -->
-                                    </div>
-                                </div>
+        <div class="terraces-section">
+            <h1>Terraces</h1>
+            <br>
+            <!-- Carousel -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="first-slide" src="pictures/CGI - living.jpg" width="90%" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <!-- <h2>Photo 1</h2> -->
                             </div>
                         </div>
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>                 
+                    </div>
+                    <div class="item">
+                        <img class="second-slide" src="pictures/CGI - Bedroom.jpg" width="90%" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <!-- <h2>Photo 2</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="third-slide" src="pictures/CGI - kitchen.jpg" width="90%" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <!-- <h2>Photo 3</h2> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>                 
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="schedule">
-        <div class="container">
-            <div class="row">
-                <div class="schedule-section">
-                    <h1>Finishes Schedule</h1>
-                    <br>
-                    <div class="text-center">
-                        <span>Building designed to comply with the conditions of all relevant Acts and Australian Standard Codes including Fire, Acoustic & Impact Provisions. </span>
+        <div class="schedule-section">
+            <h1>Finishes Schedule</h1>
+            <br>
+            <div class="text-center">
+                <span>Building designed to comply with the conditions of all relevant Acts and Australian Standard Codes including Fire, Acoustic & Impact Provisions. </span>
+            </div>
+            <br>
+            <div class="texto-schedule">
+                <dl class="dl-horizontal">                  
+                    <div class="titulo-schedule">    
+                        <h5>INTERNAL</h5>
                     </div>
-                    <br>
+                </dl>
+                <dl class="dl-horizontal">
                     <div class="texto-schedule">
-                        <dl class="dl-horizontal">                  
-                            <div class="titulo-schedule">    
-                                <h5>INTERNAL</h5>
-                            </div>
-                        </dl>
-                        <dl class="dl-horizontal">
-                            <div class="texto-schedule">
-                                <dt>WALLS: </dt><dd></dd>                   
-                                <dt>Ground Floor:</dt>              <dd>Full brick with gyprock sheeting</dd>
-                                <dt>First  Floor: </dt>             <dd>Timber with gyprock sheeting</dd>
-                                <dt>Attic Floor: </dt>              <dd>Timber with gyprock sheeting</dd>
-                                <br>
-                                <dt>FLOORS:</dt>  <dd></dd>           
-                                <dt>Basement Floor:</dt>            <dd>Concrete</dd>
-                                <dt>Ground Floor: </dt>             <dd>Concrete</dd>
-                                <dt>First Floor: </dt>              <dd>Timber</dd>
-                                <dt>Attic Floor:</dt>               <dd>Timber</dd>
-                            </div>
-                        </dl>
-                        <dl class="dl-horizontal">                          
-                            <div class="texto-schedule">    
-                                <dt>SECURITY: </dt>                 <dd>Burglar alarm system video intercom</dd>
-                                <dt>INTERNET/ TV/TEL:</dt>          <dd>Internet/ tel/ pay & free-to-air tv connections  </dd>
-                                <dt>AIR COND. / HEATING:</dt>       <dd>Daikin fully ducted reverse cycle</dd> 
-                                <dt>&nbsp;</dt>                     <dd>Gas heater connection bayonet in living area</dd>
-                                <dt>DOOR HARDWARE:</dt>             <dd>Stainless steel finish</dd>
-                                <dt>LIVING / DINING/HALLWAY:</dt>   <dd>Engineered timber </dd>
-                                <dt>LIGHTING:</dt>                 <dd>LED downlights </dd>
-                            </div>
-                        </dl>  
-
-                        <dl class="dl-horizontal">
-                            <div class="titulo-schedule">  
-                                <h5>EXTERNAL</h5>
-                            </div>           
-                            <div class="texto-schedule"> 
-                                <dt>WALLS:</dt>                     <dd>Full brick render/ Timber /Cladding </dd>
-                                <dt>PORCHES:</dt>                   <dd>Quality porcelain anti-slip tiles </dd>
-                                <dt>GARDEN:</dt>                    <dd>Landscaped</dd>
-                                <dt>&nbsp;</dt>                     <dd>Clothes line</dd>
-                                <dt>&nbsp;</dt>                     <dd>Water tap</dd>
-                                <dt>&nbsp;</dt>                     <dd>Gas bayonet connection</dd>
-                            </div>
-                        </dl>     
-
-                        <dl class="dl-horizontal">
-                            <div class="titulo-schedule">  
-                                <h5>ENSUITES &amp; BATHROOMS</h5>
-                            </div>
-                            <div class="texto-schedule">
-                                <dt>Floor: </dt>                     <dd>Quality porcelain tiles </dd>
-                                <dt>Walls: </dt>                     <dd>Quality porcelain tiles floor to ceiling</dd>
-                                <dt>Vanity: </dt>                    <dd>Timberline wall hung </dd>
-                                <dt>Mirrors: </dt>                   <dd>Bevelled edge </dd>
-                                <dt>Basin Tapware: </dt>             <dd>Grohe flick mixer</dd>
-                                <dt>Bath Tub: </dt>                  <dd>Free-standing</dd>
-                                <dt>Shower / Bath Mixer: </dt>       <dd>Grohe hand shower on rail</dd>
-                                <dt>Shower Screen: </dt>             <dd>Frameless/Semi-frameless </dd>
-                                <dt>Toilet: </dt>                    <dd>Villeroy &amp; Boch suite with soft close seat </dd>
-                                <dt>Bathroom Accessories: </dt>      <dd>Quality chrome  </dd>
-                            </div>
-                        </dl>
-                        <dl class="dl-horizontal">
-                            <div class="titulo-schedule">  
-                                <h5>BEDROOMS</h5>
-                            </div>
-                            <div class="texto-schedule">
-                                <dt>Floor coverings: </dt>           <dd>Premium wool blend carpets</dd>
-                                <dt>Wardrobes: </dt>                 <dd>Sliding mirror doors</dd>             
-                                <dt>Lighting: </dt>                  <dd>LED downlights </dd>
-                            </div>
-                        </dl> 
-                        <dl class="dl-horizontal">
-                            <div class="titulo-schedule">  
-                                <h5>KITCHEN</h5>
-                            </div>
-                            <div class="texto-schedule">
-                                <dt>Floors: </dt>                    <dd>Engineered timber </dd>
-                                <dt>Cupboards / Drawers: </dt>       <dd>Handle-less polyurethane doors </dd>
-                                <dt>Hardware: </dt>                  <dd>Soft closing system</dd>
-                                <dt>Splashback: </dt>                <dd>Premium Cesar Stone/glass</dd>
-                                <dt>Bench Tops: </dt>                <dd>Premium Cesar Stone </dd>
-                                <dt>Sinks: </dt>                     <dd>Under-mount double bowl sink </dd>
-                                <dt>Tapware: </dt>                   <dd>Grohe sink mixer</dd>
-                                <dt>Dishwasher: </dt>                <dd>Miele semi-integrated</dd>
-                                <dt>Gas Cooktop: </dt>               <dd>750mm Miele gas with wok burner</dd>
-                                <dt>Oven: </dt>                      <dd>600mm Miele electrical</dd>
-                                <dt>Range hood: </dt>                <dd>600mm Miele Slimline stainless-steel</dd>
-                                <dt>Lighting: </dt>                  <dd>LED downlights</dd>    
-                            </div>
-                        </dl>
-
-                        <dl class="dl-horizontal">
-                            <div class="titulo-schedule">  
-                                <h5>LAUNDRY</h5>
-                            </div>
-                            <div class="texto-schedule">
-                                <dt>Floors:</dt>                    <dd>Quality porcelain tiles</dd>
-                                <dt>Walls:</dt>                     <dd>Floor to ceiling quality porcelain tiles  </dd>  
-                                <dt>Tub:</dt>                       <dd>Stainless-steel with Grohe sink mixer</dd>
-                                <dt>Dryer:</dt>                     <dd>Wall hung </dd>
-                            </div>
-                        </dl>      
-                        <dl class="dl-horizontal">  
-                            <div class="titulo-schedule">  
-                                <h5>HOT WATER</h5>
-                            </div>
-                            <div class="texto-schedule">
-                                <dt>Hot Water:</dt>                 <dd>Instantaneous gas water heater</dd>
-                            </div>     
-                        </dl>
+                        <dt>WALLS: </dt><dd></dd>                   
+                        <dt>Ground Floor:</dt>              <dd>Full brick with gyprock sheeting</dd>
+                        <dt>First  Floor: </dt>             <dd>Timber with gyprock sheeting</dd>
+                        <dt>Attic Floor: </dt>              <dd>Timber with gyprock sheeting</dd>
+                        <br>
+                        <dt>FLOORS:</dt>  <dd></dd>           
+                        <dt>Basement Floor:</dt>            <dd>Concrete</dd>
+                        <dt>Ground Floor: </dt>             <dd>Concrete</dd>
+                        <dt>First Floor: </dt>              <dd>Timber</dd>
+                        <dt>Attic Floor:</dt>               <dd>Timber</dd>
                     </div>
-                </div>
+                </dl>
+                <dl class="dl-horizontal">                          
+                    <div class="texto-schedule">    
+                        <dt>SECURITY: </dt>                 <dd>Burglar alarm system video intercom</dd>
+                        <dt>INTERNET/ TV/TEL:</dt>          <dd>Internet/ tel/ pay & free-to-air tv connections  </dd>
+                        <dt>AIR COND. / HEATING:</dt>       <dd>Daikin fully ducted reverse cycle</dd> 
+                        <dt>&nbsp;</dt>                     <dd>Gas heater connection bayonet in living area</dd>
+                        <dt>DOOR HARDWARE:</dt>             <dd>Stainless steel finish</dd>
+                        <dt>LIVING / DINING/HALLWAY:</dt>   <dd>Engineered timber </dd>
+                        <dt>LIGHTING:</dt>                 <dd>LED downlights </dd>
+                    </div>
+                </dl>  
+
+                <dl class="dl-horizontal">
+                    <div class="titulo-schedule">  
+                        <h5>EXTERNAL</h5>
+                    </div>           
+                    <div class="texto-schedule"> 
+                        <dt>WALLS:</dt>                     <dd>Full brick render/ Timber /Cladding </dd>
+                        <dt>PORCHES:</dt>                   <dd>Quality porcelain anti-slip tiles </dd>
+                        <dt>GARDEN:</dt>                    <dd>Landscaped</dd>
+                        <dt>&nbsp;</dt>                     <dd>Clothes line</dd>
+                        <dt>&nbsp;</dt>                     <dd>Water tap</dd>
+                        <dt>&nbsp;</dt>                     <dd>Gas bayonet connection</dd>
+                    </div>
+                </dl>     
+
+                <dl class="dl-horizontal">
+                    <div class="titulo-schedule">  
+                        <h5>ENSUITES &amp; BATHROOMS</h5>
+                    </div>
+                    <div class="texto-schedule">
+                        <dt>Floor: </dt>                     <dd>Quality porcelain tiles </dd>
+                        <dt>Walls: </dt>                     <dd>Quality porcelain tiles floor to ceiling</dd>
+                        <dt>Vanity: </dt>                    <dd>Timberline wall hung </dd>
+                        <dt>Mirrors: </dt>                   <dd>Bevelled edge </dd>
+                        <dt>Basin Tapware: </dt>             <dd>Grohe flick mixer</dd>
+                        <dt>Bath Tub: </dt>                  <dd>Free-standing</dd>
+                        <dt>Shower / Bath Mixer: </dt>       <dd>Grohe hand shower on rail</dd>
+                        <dt>Shower Screen: </dt>             <dd>Frameless/Semi-frameless </dd>
+                        <dt>Toilet: </dt>                    <dd>Villeroy &amp; Boch suite with soft close seat </dd>
+                        <dt>Bathroom Accessories: </dt>      <dd>Quality chrome  </dd>
+                    </div>
+                </dl>
+                <dl class="dl-horizontal">
+                    <div class="titulo-schedule">  
+                        <h5>BEDROOMS</h5>
+                    </div>
+                    <div class="texto-schedule">
+                        <dt>Floor coverings: </dt>           <dd>Premium wool blend carpets</dd>
+                        <dt>Wardrobes: </dt>                 <dd>Sliding mirror doors</dd>             
+                        <dt>Lighting: </dt>                  <dd>LED downlights </dd>
+                    </div>
+                </dl> 
+                <dl class="dl-horizontal">
+                    <div class="titulo-schedule">  
+                        <h5>KITCHEN</h5>
+                    </div>
+                    <div class="texto-schedule">
+                        <dt>Floors: </dt>                    <dd>Engineered timber </dd>
+                        <dt>Cupboards / Drawers: </dt>       <dd>Handle-less polyurethane doors </dd>
+                        <dt>Hardware: </dt>                  <dd>Soft closing system</dd>
+                        <dt>Splashback: </dt>                <dd>Premium Cesar Stone/glass</dd>
+                        <dt>Bench Tops: </dt>                <dd>Premium Cesar Stone </dd>
+                        <dt>Sinks: </dt>                     <dd>Under-mount double bowl sink </dd>
+                        <dt>Tapware: </dt>                   <dd>Grohe sink mixer</dd>
+                        <dt>Dishwasher: </dt>                <dd>Miele semi-integrated</dd>
+                        <dt>Gas Cooktop: </dt>               <dd>750mm Miele gas with wok burner</dd>
+                        <dt>Oven: </dt>                      <dd>600mm Miele electrical</dd>
+                        <dt>Range hood: </dt>                <dd>600mm Miele Slimline stainless-steel</dd>
+                        <dt>Lighting: </dt>                  <dd>LED downlights</dd>    
+                    </div>
+                </dl>
+
+                <dl class="dl-horizontal">
+                    <div class="titulo-schedule">  
+                        <h5>LAUNDRY</h5>
+                    </div>
+                    <div class="texto-schedule">
+                        <dt>Floors:</dt>                    <dd>Quality porcelain tiles</dd>
+                        <dt>Walls:</dt>                     <dd>Floor to ceiling quality porcelain tiles  </dd>  
+                        <dt>Tub:</dt>                       <dd>Stainless-steel with Grohe sink mixer</dd>
+                        <dt>Dryer:</dt>                     <dd>Wall hung </dd>
+                    </div>
+                </dl>      
+                <dl class="dl-horizontal">  
+                    <div class="titulo-schedule">  
+                        <h5>HOT WATER</h5>
+                    </div>
+                    <div class="texto-schedule">
+                        <dt>Hot Water:</dt>                 <dd>Instantaneous gas water heater</dd>
+                    </div>     
+                </dl>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="location">
-        <div class="container">
-            <div class="row">
-                <div class="location-section">
-                    <h1>Location</h1>
-                    <br>
-                    <div id="map">
-                    </div>
-                    <br>
-                    <h6>238-243 Kingsway, Caringbah</h6>
-                </div>
+        <div class="location-section">
+            <h1>Location</h1>
+            <br>
+            <div id="map">
             </div>
+            <br>
+            <h6>238-243 Kingsway, Caringbah</h6>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-section">
-                    <h1>Contact Us</h1>
-                    <br>
-                    <br>
-                    <div class="class-form-left">
-                        <br>
-                        <img src="pictures/soho.jpg" width="45%" align="center"  alt="Soho" />
-                        <br>
-                        <p>02 9281 1588</p>
+        <div class="contact-section">
+            <h1>Contact Us</h1>
+            <br>
+            <br>
+            <div class="class-form-left">
+                <br>
+                <img src="pictures/soho.jpg" width="45%" align="center"  alt="Soho" />
+                <br>
+                <p>02 9281 1588</p>
+            </div>
+
+            <div class="class-form-right">
+                <form id="frmContato" name="frmContato" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                    <label for="name">Name:</label>
                     </div>
-                    <div class="class-form-right">
-                        <form id="frmContato" name="frmContato" method="POST" enctype="multipart/form-data">
-                            <div class="form-group">
-                                <label for="name">Name:</label>
-                            </div>
-                            <p><input type=text id="name" name="name"></p><br>
+                    <p><input type=text id="name" name="name"></p><br>
 
-                            <div class="font-form">
-                                <label>Email: </label>
-                            </div>
-                            <p><input type=text id="email" name="email"></p><br>
-
-                            <div class="font-form">
-                                <label>Phone number: </label>
-                            </div>
-                            <p><input type=text id="phone" name="email"></p><br>
-
-                            <div class="font-form">
-                                <label>Message: </label>
-                            </div>
-                            <p><textarea id="message" name="message" rows="10"></textarea></p><br>
-                            <p><input type="button" id="sendMail" name="sendMail" value="Send Email"> <input type="reset" value="Clear Form"></p>
-                        </form>
+                    <div class="font-form">
+                    <label>Email: </label>
                     </div>
-                </div>
+                    <p><input type=text id="email" name="email"></p><br>
+
+                    <div class="font-form">
+                    <label>Phone number: </label>
+                    </div>
+                    <p><input type=text id="phone" name="email"></p><br>
+
+                    <div class="font-form">
+                    <label>Message: </label>
+                    </div>
+                    <p><textarea id="message" name="message" rows="10"></textarea></p><br>
+                    <p><input type="button" id="sendMail" name="sendMail" value="Send Email"> <input type="reset" value="Clear Form"></p>
+                    <br>
+
+                </form>
             </div>
         </div>
     </section>
+</div>
 
     <section id="footer">
-        <div class="container">
-            <div class="row">
                 <div class="footer-section">
                     <p>&copy; JL Corporation</p>
                 </div>
-            </div>   
-        </div>
     </section>
 
     <!-- Maps API Javascript -->
