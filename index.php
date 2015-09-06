@@ -94,7 +94,7 @@
     <!-- Architecture Section -->
  <div class="conteudo">
     <section id="architecture" >
-	<div class="architecture-section">            
+	<div class="architecture-section" >            
         <img src="pictures/CGI - Exterior.jpg" width="90%" alt="Exterior">
         <h4>Luxury Living in Highfield Terraces</h4>
         <div class="text-architeture">
@@ -111,10 +111,10 @@
     </section>
 
     <!-- Terracest Section -->
-    <section id="terraces" >
+    <section id="terraces"  >
         <div class="terraces-section">
             <h1>Terraces</h1>
-            <br>
+            <br><br><br>
             <!-- Carousel -->
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <!-- Indicators -->
@@ -157,13 +157,14 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>                 
+            </div>                
+            <br> 
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="schedule">
-        <div class="schedule-section">
+    <!-- Schedule Section -->
+    <section id="schedule" >
+        <div class="schedule-section" >
             <h1>Finishes Schedule</h1>
             <br>
             <div class="text-center">
@@ -283,17 +284,18 @@
                     </div>     
                 </dl>
             </div>
+            <br>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="location">
-        <div class="location-section">
+    <section id="location" >
+        <div class="location-section" >
             <h1>Location</h1>
-            <br>
+            <br><br><br>
             <div id="map">
             </div>
-            <br>
+            <br><br>
             <h6>238-243 Kingsway, Caringbah</h6>
         </div>
     </section>
@@ -305,12 +307,12 @@
             <br>
             <br>
             <div class="class-form-left">
-                <br>
+                <br><br>
                 <img src="pictures/soho.jpg" width="45%" align="center"  alt="Soho" />
                 <br>
                 <p>02 9281 1588</p>
             </div>
-
+            <br>
             <div class="class-form-right">
                 <form id="frmContato" name="frmContato" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
@@ -333,10 +335,9 @@
                     </div>
                     <p><textarea id="message" name="message" rows="10"></textarea></p><br>
                     <p><input type="button" id="sendMail" name="sendMail" value="Send Email"> <input type="reset" value="Clear Form"></p>
-                    <br>
-
                 </form>
             </div>
+            <br>
         </div>
     </section>
 </div>
