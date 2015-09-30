@@ -109,19 +109,14 @@ h6:after{
 
 
 /* DESCRICAO DAS SECTIONS*/
-.div-size{
- height:auto; 
- min-height:100%; /* aqui é onde acontece a mágica, a propriedade height:auto e min-height: 100% fará com que esta div ocupe sempre a altura total do navegador, mesmo quando redimensionado */
-}
-
 .col-lg-12 {
-  width: 73.98%;
+  width: 71.98%;
 }
 
 
 .conteudo{
-    width: 67.67%;
-    margin-left: 15%;
+    width: 65.67%;
+    margin-left: 17.5%;
     background: #fff;
 }
 
@@ -141,6 +136,13 @@ h6:after{
     padding-top: 70px;
     text-align: center;
     background: #fff;
+}
+
+.plan-section {
+    padding-top: 70px;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 70px;
 }
 
 .location-section {
@@ -207,7 +209,7 @@ h6:after{
 
 /* Carousel base class */
 .carousel {
-  width: 90%;
+  width: 93%;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -221,21 +223,21 @@ h6:after{
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  width: 90%;
-  max-height: 76.67%;
-  margin-left: 9.5%;
+  width: 93%;
+  max-height: 79.67%;
+  margin-left: 6.8%;
 
 }
 .carousel-inner > .item > img {
-  width: 90%;
+  width: 93%;
   position: relative;
 
 }
 
 /*mapa e infowindow*/
 #map{
-    height: 480px;
-    width: 90%;
+    height: 550px;
+    width: 93%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -277,23 +279,23 @@ input[type=submit]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-	width: 17.54%;
-	height: 50px;
-  font-size: 1.6em;
+	  width: 17.54%;
+	  height: 50px;
+    font-size: 1.6em;
 }
 input[type=reset]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-	width: 23%;
-	height: auto;
+	  width: 23%;
+	  height: auto;
 }
 input[type=button]{
     color: #F8F8F8;
     background-color: #333;
     border-radius: 10px;
-  width: 23%;
-  height: auto;
+    width: 23%;
+    height: auto;
 }
 
 .class-form-left{
@@ -308,4 +310,21 @@ input[type=button]{
     margin-left: 50%;
     padding-left: 7%;
     text-align: left;
+}
+
+
+/*PLANTAS*/
+.row{
+  text-align: center;
+
+}
+.image-left{
+    float: left;
+    text-align: left;
+}
+.image-center{
+    text-align: center;
+}  
+.image-right{
+    text-align: right;
 }

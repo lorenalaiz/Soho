@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>High Field Terraces</title>
+        <title>Highfield Terraces</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -77,6 +77,9 @@
                             <a class="page-scroll" href="#schedule">FINISHES SCHEDULE</a>
                         </li>
                         <li>
+                            <a class="page-scroll" href="#plans">FLOOR PLANS</a>
+                        </li>
+                        <li>
                             <a class="page-scroll" href="#location">LOCATION</a>
                         </li>
                         <li>
@@ -94,8 +97,8 @@
     <!-- Architecture Section -->
  <div class="conteudo">
     <section id="architecture" >
-	<div class="architecture-section" >            
-        <img src="pictures/CGI - Exterior.jpg" width="90%" alt="Exterior">
+	<div class="architecture-section">            
+        <img src="pictures/CGI - Exterior.jpg" width="93%" alt="Exterior">
         <h4>Luxury Living in Highfield Terraces</h4>
         <div class="text-architeture">
             <span>
@@ -111,10 +114,10 @@
     </section>
 
     <!-- Terracest Section -->
-    <section id="terraces"  >
+    <section id="terraces" >
         <div class="terraces-section">
             <h1>Terraces</h1>
-            <br><br><br>
+            <br>
             <!-- Carousel -->
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <!-- Indicators -->
@@ -125,7 +128,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img class="first-slide" src="pictures/CGI - living.jpg" width="90%" alt="First slide">
+                        <img class="first-slide" src="pictures/CGI - living.jpg" width="93%" alt="First slide">
                         <div class="container">
                             <div class="carousel-caption">
                                 <!-- <h2>Photo 1</h2> -->
@@ -133,7 +136,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img class="second-slide" src="pictures/CGI - Bedroom.jpg" width="90%" alt="Second slide">
+                        <img class="second-slide" src="pictures/CGI - Bedroom.jpg" width="93%" alt="Second slide">
                         <div class="container">
                             <div class="carousel-caption">
                                 <!-- <h2>Photo 2</h2> -->
@@ -141,7 +144,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img class="third-slide" src="pictures/CGI - kitchen.jpg" width="90%" alt="Third slide">
+                        <img class="third-slide" src="pictures/CGI - kitchen.jpg" width="93%" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption">
                                 <!-- <h2>Photo 3</h2> -->
@@ -162,9 +165,9 @@
         </div>
     </section>
 
-    <!-- Schedule Section -->
-    <section id="schedule" >
-        <div class="schedule-section" >
+    <!-- Services Section -->
+    <section id="schedule">
+        <div class="schedule-section">
             <h1>Finishes Schedule</h1>
             <br>
             <div class="text-center">
@@ -187,7 +190,7 @@
                         <dt>FLOORS:</dt>  <dd></dd>           
                         <dt>Basement Floor:</dt>            <dd>Concrete</dd>
                         <dt>Ground Floor: </dt>             <dd>Concrete</dd>
-                        <dt>First Floor: </dt>              <dd>Timber</dd>
+                        <dt>First Floor: </dt>              <dd>Concrete</dd>
                         <dt>Attic Floor:</dt>               <dd>Timber</dd>
                     </div>
                 </dl>
@@ -284,15 +287,55 @@
                     </div>     
                 </dl>
             </div>
+            <br><br>
+            <img src="pictures/daikin.png" width="15%" alt="daikin">
+            <img src="pictures/grohe.png" width="15%" alt="grohe">
+            <img src="pictures/miele.png" width="15%" alt="miele">
+            <img src="pictures/boch.jpg" width="15%" alt="boch">
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans">
+        <div class="plan-section">
+            <h1>Floor Plans</h1>
             <br>
+            <div class="row">
+                <div class="image-left">
+                  <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="15%" alt="Planta"></a>
+                  <p>Site Plan</p>
+                </div>
+                <div class="image-center">
+                  <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 1.png" width="15%" alt="Planta1"></a>
+                  <p>Floor Plan 1</p>
+                </div>
+                <div class="image-right">
+                  <a href="Documents/Floor plans/Floor plan - 2.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 2.png" width="15%" alt="Planta2"></a>
+                <p>Floor Plan 2</p>
+                </div>    
+                <div class="image-left">
+                  <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 3.png" width="15%" alt="Planta"></a>
+                  <p>Floor Plan 3</p>
+                </div>
+                <div class="image-center">
+                  <a href="Documents/Floor plans/Floor plan - 4.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 4.png" width="15%" alt="Planta1"></a>
+                  <p>Floor Plan 4</p>
+                </div>
+                <div class="image-right">
+                  <a href="Documents/Floor plans/Floor plan - 5.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 5.png" width="15%" alt="Planta2"></a>
+                <p>Floor Plan 5</p>
+                </div>
+            </div>
+            <!--<a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="10%" align="left"  alt="Planta1">Site Plan</a> -->
+            <br><br>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="location" >
-        <div class="location-section" >
+    <section id="location">
+        <div class="location-section">
             <h1>Location</h1>
-            <br><br><br>
+            <br>
             <div id="map">
             </div>
             <br><br>
