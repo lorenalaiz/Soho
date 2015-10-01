@@ -287,11 +287,12 @@
                     </div>     
                 </dl>
             </div>
-            <br><br>
-            <img src="pictures/daikin.png" width="15%" alt="daikin">
-            <img src="pictures/grohe.png" width="15%" alt="grohe">
-            <img src="pictures/miele.png" width="15%" alt="miele">
-            <img src="pictures/boch.jpg" width="15%" alt="boch">
+            <br><br>        
+            <img class="logos" src="pictures/boch.jpg" width="17%" alt="boch">
+            <img class="logos" src="pictures/grohe.png" width="14%" alt="grohe">
+            <img class="logos" src="pictures/timberline.jpg" width="15%" alt="boch">
+            <img class="logos" src="pictures/miele.png" width="15%" alt="miele">
+            <img class="logos" src="pictures/daikin.png" width="17%" alt="daikin">
         </div>
     </section>
 
@@ -300,33 +301,44 @@
         <div class="plan-section">
             <h1>Floor Plans</h1>
             <br>
-            <div class="row">
-                <div class="image-left">
-                  <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="15%" alt="Planta"></a>
-                  <p>Site Plan</p>
-                </div>
-                <div class="image-center">
-                  <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 1.png" width="15%" alt="Planta1"></a>
-                  <p>Floor Plan 1</p>
-                </div>
-                <div class="image-right">
-                  <a href="Documents/Floor plans/Floor plan - 2.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 2.png" width="15%" alt="Planta2"></a>
-                <p>Floor Plan 2</p>
-                </div>    
-                <div class="image-left">
-                  <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 3.png" width="15%" alt="Planta"></a>
-                  <p>Floor Plan 3</p>
-                </div>
-                <div class="image-center">
-                  <a href="Documents/Floor plans/Floor plan - 4.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 4.png" width="15%" alt="Planta1"></a>
-                  <p>Floor Plan 4</p>
-                </div>
-                <div class="image-right">
-                  <a href="Documents/Floor plans/Floor plan - 5.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 5.png" width="15%" alt="Planta2"></a>
-                <p>Floor Plan 5</p>
-                </div>
+            <div class="plans">
+                <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="15%" alt="Planta"></a>
+                <div class="desc">Site Plan</div>
             </div>
-            <!--<a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="10%" align="left"  alt="Planta1">Site Plan</a> -->
+            <div class="plans">
+                <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 1.png" width="15%" alt="Planta1"></a>
+                 <div class="desc">Floor 1</div>
+            </div>
+            <div class="plans">
+                <a href="Documents/Floor plans/Floor plan - 2.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 2.png" width="15%" alt="Planta2"></a>
+                <div class="desc">Floor 2</div>
+            </div>
+            <div class="plans">
+                <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 3.png" width="15%" alt="Planta3"></a>
+                <div class="desc">Floor 3</div>
+            </div>
+
+        <!--
+
+
+            <div class="image-left">
+                <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="15%" alt="Planta"></a>
+                <p>Site Plan</p>
+                <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 3.png" width="15%" alt="Planta3"></a>
+                <p>Floor Plan 3</p>
+            </div>
+            <div class="image-center">
+                <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 1.png" width="15%" alt="Planta1"></a>
+                <p>Floor Plan 1</p>
+                <a href="Documents/Floor plans/Floor plan - 4.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 4.png" width="15%" alt="Planta4"></a>
+                <p>Floor Plan 4</p>
+            </div>
+            <div class="image-right">
+                <a href="Documents/Floor plans/Floor plan - 2.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 2.png" width="15%" alt="Planta2"></a>
+                <p>Floor Plan 2</p>
+                <a href="Documents/Floor plans/Floor plan - 5.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 5.png" width="15%" alt="Planta5"></a>
+                <p>Floor Plan 5</p>
+            </div> -->
             <br><br>
         </div>
     </section>

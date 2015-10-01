@@ -314,15 +314,46 @@ input[type=button]{
 
 
 /*PLANTAS*/
-.row{
-  text-align: center;
+.logos{
+  margin: 10px;
 }
+
 .image-left{
     text-align: left;
+    width: 30%;
+    float: left;
 }
 .image-center{
     text-align: center;
+    width: 30%    
 }  
 .image-right{
     text-align: right;
+    width: 30%;
+}
+
+div.plans {
+    margin: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.plans img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.plans a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    font-style: bold;
+    margin: 5px;
 }
