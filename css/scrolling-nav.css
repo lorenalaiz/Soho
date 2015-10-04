@@ -318,37 +318,31 @@ input[type=button]{
   margin: 10px;
 }
 
-.image-left{
-    text-align: left;
-    width: 30%;
-    float: left;
-}
-.image-center{
-    text-align: center;
-    width: 30%    
-}  
-.image-right{
-    text-align: right;
-    width: 30%;
+div.total{
+  width: 100%;
+  margin: 2px;
+  border: 1px solid #333;
+
 }
 
-div.plans {
-    margin: 5px;
-    border: 1px solid #0000ff;
+div.plantas {
+    margin: 1px;
+    border: 1px solid #333;
+    width: 20%;
     height: auto;
-    width: auto;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
-div.plans img {
+div.plantas img {
     display: inline;
     margin: 5px;
-    border: 1px solid #ffffff;
+    border: 1px solid #333;
+    text-align: center;
 }
 
-div.plans a:hover img {
-    border:1px solid #0000ff;
+div.plantas a:hover img {
+    border:1px solid #333;
 }
 
 div.desc {
