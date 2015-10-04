@@ -301,6 +301,7 @@
         <div class="plan-section">
             <h1>Floor Plans</h1>
             <br>
+<<<<<<< HEAD
             <div class="total">
                 <div class="plantas">
                     <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="70%" alt="Planta"></a>
@@ -365,8 +366,32 @@
             </div>
             
             <br><br>
+=======
+            
+                <div class="plans">
+                    <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="15%" alt="Planta"></a>
+                    <div class="desc">Site Plan</div>
+                </div>
+                <div class="plans">
+                    <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 1.png" width="15%" alt="Planta1"></a>
+                     <div class="desc">Floor 1</div>
+                </div>
+                <div class="plans">
+                    <a href="Documents/Floor plans/Floor plan - 2.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 2.png" width="15%" alt="Planta2"></a>
+                    <div class="desc">Floor 2</div>
+                </div>
+                <div class="plans">
+                    <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 3.png" width="15%" alt="Planta3"></a>
+                    <div class="desc">Floor 3</div>
+                </div>
+
+>>>>>>> origin/master
         </div>
+
     </section>
+
+<!--<div class="desc">Floor 3</div> -->
+
 
     <!-- Services Section -->
     <section id="location">
