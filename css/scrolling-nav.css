@@ -142,7 +142,6 @@ h6:after{
     padding-top: 70px;
     text-align: center;
     background: #fff;
-    padding-bottom: 200px;
 }
 
 .location-section {
@@ -317,15 +316,17 @@ input[type=button]{
 .logos{
   margin: 10px;
 }
+.plantas{
+  margin: 10px;
+}
 
+/*
 div.total{
-  width: 100%;
+  width: 95%;
   margin: 2px;
   border: 1px solid #333;
 
 }
-
-<<<<<<< HEAD
 div.plantas {
     margin: 1px;
     border: 1px solid #333;
@@ -336,8 +337,6 @@ div.plantas {
 }
 
 div.plantas img {
-=======
-div.plans {
     float: left;
     border: 1px solid #95918D;
     width: 45%;
@@ -349,7 +348,6 @@ div.plans {
 
 
 div.plans img {
->>>>>>> origin/master
     display: inline;
     margin: 5px;
     border: 1px solid #333;
@@ -366,3 +364,5 @@ div.desc {
     font-style: bold;
     margin: 5px;
 }
+
+*/
