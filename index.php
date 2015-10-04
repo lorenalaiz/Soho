@@ -301,7 +301,6 @@
         <div class="plan-section">
             <h1>Floor Plans</h1>
             <br>
-<<<<<<< HEAD
             <div class="total">
                 <div class="plantas">
                     <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img src="pictures/Plans/plan_1.png" width="70%" alt="Planta"></a>
@@ -384,8 +383,6 @@
                     <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img src="pictures/Plans/Floor plan - 3.png" width="15%" alt="Planta3"></a>
                     <div class="desc">Floor 3</div>
                 </div>
-
->>>>>>> origin/master
         </div>
 
     </section>
