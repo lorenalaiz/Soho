@@ -302,10 +302,10 @@
             <h1>Floor Plans</h1>
             <br>
             <a href="Documents/Floor plans/Floor plan - site plan.pdf" target="_blank"><img class="plantas" src="pictures/Plans/plan_1.png" width="20%" alt="Planta"></a>
-            <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img class="plantas" src="pictures/Plans Sold/Floor plan - 1.png" width="20%" alt="Planta1"></a>
+            <a href="Documents/Floor plans/Floor plan - 1.pdf" target="_blank"><img class="plantas" src="pictures/Plans Sold/Floor plan - 1.png" width="24%" alt="Planta1"></a>
             <a href="Documents/Floor plans/Floor plan - 2.pdf" target="_blank"><img class="plantas" src="pictures/Plans/Floor plan - 2.png" width="20%" alt="Planta2"></a>
-            <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img class="plantas" src="pictures/Plans Sold/Floor plan - 3.png" width="20%" alt="Planta3"></a>
-            <a href="Documents/Floor plans/Floor plan - 4.pdf" target="_blank"><img class="plantas" src="pictures/Plans Sold/Floor plan - 4.png" width="20%" alt="Planta4"></a>
+            <a href="Documents/Floor plans/Floor plan - 3.pdf" target="_blank"><img class="plantas" src="pictures/Plans Sold/Floor plan - 3.png" width="24%" alt="Planta3"></a>
+            <a href="Documents/Floor plans/Floor plan - 4.pdf" target="_blank"><img class="plantas" src="pictures/Plans Sold/Floor plan - 4.png" width="24%" alt="Planta4"></a>
             <a href="Documents/Floor plans/Floor plan - 5.pdf" target="_blank"><img class="plantas" src="pictures/Plans/Floor plan - 5.png" width="20%" alt="Planta5"></a>
             <a href="Documents/Floor plans/Floor plan - 6.pdf" target="_blank"><img class="plantas" src="pictures/Plans/Floor plan - 6.png" width="20%" alt="Planta6"></a>
             <a href="Documents/Floor plans/Floor plan - 7.pdf" target="_blank"><img class="plantas" src="pictures/Plans/Floor plan - 7.png" width="20%" alt="Planta7"></a>
